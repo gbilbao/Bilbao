@@ -245,7 +245,7 @@ function _smartcore()
 					CastSpell(_R)
 				end
 				if (Menu.extra.ex.packetcast == 1 or Menu.extra.ex.packetcast == 3) and cancastCOMBO then
-					Packet('S_CAST', { spellId = _R, fromX = myHero.x, fromY = myHero.z}):send()
+					Packet('S_CAST', { spellId = _R, fromX = myHero.x, fromY = myHero.z}):send()					
 				end				
 			end
 			if (Menu.rota.userq == 2 or Menu.rota.userq == 3) and cancastCOMBO then
@@ -677,7 +677,7 @@ function _castSpell(TSPELL, TSPELLX, TSPELLZ, TUNIT)
 			CastSpell(TSPELL, TUNIT)
 		end
 		if (Menu.extra.ex.packetcast == 1 or Menu.extra.ex.packetcast == 3) then
-			_CastSpellOverPacket(TSPELL, nil, nil, TUNIT)
+			if VIP_USER then _CastSpellOverPacket(TSPELL, nil, nil, TUNIT) else CastSpell(TSPELL, TUNIT) end
 		end
 	end
 	if TUNIT==nil and TSPELLX~=nil and TSPELLZ~=nil then
@@ -685,14 +685,13 @@ function _castSpell(TSPELL, TSPELLX, TSPELLZ, TUNIT)
 			CastSpell(TSPELL, TSPELLX, TSPELLZ)
 		end
 		if (Menu.extra.ex.packetcast == 1 or Menu.extra.ex.packetcast == 3) then
-			_CastSpellOverPacket(TSPELL, TSPELLX, TSPELLZ, nil)
+			if VIP_USER then _CastSpellOverPacket(TSPELL, TSPELLX, TSPELLZ, nil) else CastSpell(TSPELL, TSPELLX, TSPELLZ) end
 		end
 	end
 end
 
 
 function _CastSpellOverPacket(mySpell, PosX, PosZ, CUnit)
-if not VIP_USER then return end
 local tnid, tposX, tposZ = nil, nil, nil
 local cansend = false
 	if PosX ~= nil and PosZ ~= nil then
@@ -710,7 +709,7 @@ local cansend = false
 		end
 	end
 	if cansend then
-		local CSOpacket = CLoLPacket(Packet.headers.S_CAST)
+		local CSOpacket = CLoLPacket(0x9A)
 		CSOpacket.dwArg1 = 1
 		CSOpacket.dwArg2 = 0
 		CSOpacket:EncodeF(myHero.networkID)
