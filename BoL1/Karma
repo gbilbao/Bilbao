@@ -692,6 +692,10 @@ end
 
 
 function _CastSpellOverPacket(mySpell, PosX, PosZ, CUnit)
+if not VIP_USER then
+CastSpell(mySpell, CUnit or PosX, (CUnit == nil) and PosZ)
+return
+end
 local tnid, tposX, tposZ = nil, nil, nil
 local cansend = false
 	if PosX ~= nil and PosZ ~= nil then
@@ -834,6 +838,8 @@ function _load_menu()
 		Menu:addSubMenu("Target acquisition", "ta")	
 			if VIP_USER then
 				Menu.ta:addParam("packet", "Use Packets", SCRIPT_PARAM_ONOFF, false)
+			else
+				Menu.ta.packet = false
 			end	
 			if not VIP_USER then
 				if vpredicfile then
@@ -865,8 +871,13 @@ function _load_menu()
 		-----------------------------------------------------------------------------------------------------
 		Menu:addSubMenu("Extra", "extra")
 			Menu.extra:addSubMenu("Extended", "ex")
-				Menu.extra.ex:addParam("packetcast", "Casting", SCRIPT_PARAM_LIST, 1, { "NoFace(P)", "Regular", "Packets" })
-				Menu.extra.ex:addParam("packetmove", "Packet Movement", SCRIPT_PARAM_ONOFF, false)			 			
+				if VIP_USER then
+					Menu.extra.ex:addParam("packetcast", "Casting", SCRIPT_PARAM_LIST, 1, { "NoFace(P)", "Regular", "Packets" })
+					Menu.extra.ex:addParam("packetmove", "Packet Movement", SCRIPT_PARAM_ONOFF, false)
+				else
+					Menu.extra.ex.packetcast = 2
+					Menu.extra.ex.packetmove = false
+				end
 			Menu.extra:addSubMenu("Auto level", "alvl")
 				Menu.extra.alvl:addParam("alvlstatus", "Auto lvl skills", SCRIPT_PARAM_ONOFF, false)
 				Menu.extra.alvl:addParam("lvlseq", "Choose your lvl Sequence", SCRIPT_PARAM_LIST, 1, { "R>Q>W>E", "R>Q>E>W", "R>W>Q>E", "R>W>E>Q", "R>E>Q>W", "R>E>W>Q" })
