@@ -1,0 +1,1995 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items version="27">
+	<item id="3001" name="Abyssal Scepter">
+		<image value="3001_Abyssal_Scepter" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,ap,mr" />
+		<stats>
+			<stat type="ap" value="70" />
+			<stat type="mr" value="57" />
+		</stats>
+		<tooltip value="${UR}Reduces the ${MR} of nearby enemy ${CH}s by ${mpen}." />
+		<tooltipstats mpen="20" />
+		<cost value="2650" />
+		<components>
+			<item value="1057" />
+			<item value="1026" />
+		</components>
+	</item>
+	
+	<item id="3105" name="Aegis of the Legion">
+		<image value="034_Steel_Shield" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,ar,h,mr" />
+		<stats>
+			<stat type="h" value="270" />
+			<stat type="ar" value="18" />
+			<stat type="mr" value="24" />
+		</stats>
+		<tooltip value="${UR}+${ar} ${AR} +${mr} ${MR} +${dmg} ${AD} to nearby allied units." />
+		<tooltipstats ar="12" mr="15" dmg="8" />
+		<cost value="1925" />
+		<components>
+			<item value="1028" />
+			<item value="1033" />
+			<item value="1029" />
+		</components>
+	</item>
+	
+	<item id="1052" name="Amplifying Tome">
+		<image value="1052_Amplifying_Scepter" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,ap" />
+		<stats>
+			<stat type="ap" value="20" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="435" />
+	</item>
+	
+	<item id="3003" name="Archangel's Staff">
+		<image value="3003_Archangels_Staff_of_Apocalypse" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,m,mregen,ap" />
+		<stats>
+			<stat type="m" value="400" />
+			<stat type="mregen" value="25" />
+			<stat type="ap" value="45" />
+		</stats>
+		<tooltip value="${P}Grants ${AP} equal to ${ap}% of your maximum ${M}.\n${UP}Each time you use an ability, your maximum ${M} increases by ${m}.\n	${cd}${SCD}\n	Bonus caps at +${cap} ${M}.\n${DNS}Tear of the Goddess or Manamune." />
+		<tooltipstats ap="3" m="4" cd="3" cap="1000" />
+		<cost value="2855" />
+		<components>
+			<item value="3070" />
+			<item value="1026" />
+		</components>
+	</item>
+	
+	<item id="3174" name="Athene's Unholy Grail">
+		<image value="3174_AthenesUnholyGrail" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,ap,mr,mregen,cd" />
+		<stats>
+			<stat type="ap" value="80" />
+			<stat type="mr" value="36" />
+			<stat type="mregen" value="15" />
+		</stats>
+		<tooltip value="${UP}${cd}% ${CD}\n${UP}Restores ${m}% of your max ${M} on Kill or Assist.\n${UP}Increases your Mana Regen by ${mrinc}% per ${minc}% ${M} you are missing.\n${DNS}Chalice of Harmony." />
+		<tooltipstats cd="15" m="12" mrinc="1" minc="1"/>
+		<cost value="2355" />
+		<components>
+			<item value="3108" />
+			<item value="1052" />
+			<item value="3028" />
+		</components>
+	</item>
+	
+	<item id="3005" name="Atma's Impaler">
+		<image value="3005_Atmas_Impaler" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,defense,ad,crit,ar" />
+		<stats>
+			<stat type="ar" value="45" />
+			<stat type="crit" value="18" />
+		</stats>
+		<tooltip value="${UP}${dmg}% of your maximum ${H} is added to your ${AD}." />
+		<tooltipstats dmg="1.5" />
+		<cost value="2355" />
+		<components>
+			<item value="1031" />
+			<item value="1018" />
+		</components>
+	</item>
+	
+	<item id="3198" name="Augment: Death">
+		<image value="3198_AugmentE" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="viktor,magic,ap" />
+		<stats>
+			<stat type="appl" value="3" />
+			<stat type="ap" value="45" />
+		</stats>
+		<tooltip value="${AA}Death Ray sets fire to enemies, dealing ${dmg}% additional ${MD} over ${dmgtime}${S}." />
+		<tooltipstats dmg="30" dmgtime="4" />
+		<cost value="1200" />
+	</item>
+	
+	<item id="3197" name="Augment: Gravity">
+		<image value="3197_AugmentW" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="viktor,magic,ap,m,cd,mregen" />
+		<stats>
+			<stat type="appl" value="3" />
+			<stat type="m" value="200" />
+			<stat type="cd" value="10" />
+			<stat type="mregen" value="5" />
+		</stats>
+		<tooltip value="${AA}Gravity Field has an additional ${range}% cast range." />
+		<tooltipstats range="30" />
+		<cost value="1200" />
+	</item>
+	
+	<item id="3196" name="Augment: Power">
+		<image value="3196_AugmentQ" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="viktor,magic,ap,h,hregen" />
+		<stats>
+			<stat type="appl" value="3" />
+			<stat type="h" value="220" />
+			<stat type="hregen" value="6" />
+		</stats>
+		<tooltip value="${AA}Power Transfer increases Viktor's ${MV} by ${mv}% for ${mvtime}${S}." />
+		<tooltipstats mv="30" mvtime="3" />
+		<cost value="1200" />
+	</item>
+	
+	<item id="3093" name="Avarice Blade">
+		<image value="3093_Avarice_Blade" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,crit" />
+		<stats>
+			<stat type="crit" value="12" />
+		</stats>
+		<tooltip value="${UP}Gain an additional 5 Gold every 10${S}." />
+		<tooltipstats />
+		<cost value="750" />
+		<components>
+			<item value="1051" />
+		</components>
+	</item>
+
+	<item id="1038" name="B.F. Sword">
+		<image value="1038_BF_Sword" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,ad" />
+		<stats>
+			<stat type="ad" value="45" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="1650" />
+	</item>
+	
+	<item id="3102" name="Banshee's Veil">
+		<image value="066_Sindoran_Shielding_Amulet" />
+		<mode value="classic,allmid" />
+		<sorting value="magic,defense,m,h,mr" />
+		<stats>
+			<stat type="h" value="375" />
+			<stat type="m" value="375" />
+			<stat type="mr" value="50" />
+		</stats>
+		<tooltip value="${UP}Gain a spell shield that blocks the next incoming enemy ability.\n	${cd}${SCD}" />
+		<tooltipstats cd="45" />
+		<cost value="2715" />
+		<components>
+			<item value="1057" />
+			<item value="3010" />
+		</components>
+	</item>
+
+	<item id="3006" name="Berserker's Greaves">
+		<image value="3006_Berserkers_Greaves" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,movement,as" />
+		<stats>
+			<stat type="as" value="25" />
+		</stats>
+		<tooltip value="${UP}Enhanced Movement ${mvlvl} (${DNS}other Boots)" />
+		<tooltipstats mvlvl="2" />
+		<cost value="920" />
+		<components>
+			<item value="1001" />
+			<item value="1042" />
+		</components>
+	</item>
+
+	<item id="3144" name="Bilgewater Cutlass">
+		<image value="3144_Bilgewater_Cutlass" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,ad,ls" />
+		<stats>
+			<stat type="ad" value="35" />
+			<stat type="ls" value="15" />
+		</stats>
+		<tooltip value="${UA}Deals ${dmg} ${MD} and slows the target ${CH} by ${slow}% for ${slowtime}${S} (${range} range).\n	${cd}${SCD}" />
+		<tooltipstats dmg="150" slow="50" slowtime="3" range="400" cd="60" />
+		<cost value="1825" />
+		<components>
+			<item value="1037" />
+			<item value="1053" />
+		</components>
+	</item>
+
+	<item id="1026" name="Blasting Wand">
+		<image value="1026_Blasting_Band" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,ap" />
+		<stats>
+			<stat type="ap" value="40" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="860" />
+	</item>
+
+	<item id="3117" name="Boots of Mobility">
+		<image value="3004_Assault_Treads" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="movement" />
+		<stats />
+		<tooltip value="${UP}Enhanced Movement ${mv}, increases to Enhanced Movement ${mv2} when out of combat for ${cd}${S} (${DNS}other Boots)." />
+		<tooltipstats mv="2" cd="5" mv2="5" />
+		<cost value="1000" />
+		<components>
+			<item value="1001" />
+		</components>
+	</item>
+
+	<item id="1001" name="Boots of Speed">
+		<image value="1001_Boots_of_Speed" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="movement" />
+		<stats />
+		<tooltip value="${UP}Enhanced Movement ${mvlvl} (${DNS}other Boots)" />
+		<tooltipstats mvlvl="1" />
+		<cost value="350" />
+	</item>
+
+	<item id="3009" name="Boots of Swiftness">
+		<image value="3009_Boots_of_Teleportation" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="movement" />
+		<stats />
+		<tooltip value="${UP}Enhanced Movement ${mvlvl} (${DNS}other Boots)" />
+		<tooltipstats mvlvl="3" />
+		<cost value="1000" />
+		<components>
+			<item value="1001" />
+		</components>
+	</item>
+
+	<item id="1051" name="Brawler's Gloves">
+		<image value="1051_Brawlers_Gloves" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,crit" />
+		<stats>
+			<stat type="crit" value="8" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="400" />
+	</item>
+	
+	<item id="3010" name="Catalyst the Protector">
+		<image value="3010_Catalyst_the_Protector" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,m,h" />
+		<stats>
+			<stat type="h" value="290" />
+			<stat type="m" value="325" />
+		</stats>
+		<tooltip value="${UP}On leveling up, restores ${h} ${H} and ${m} ${M} over ${len}${S}." />
+		<tooltipstats h="250" m="200" len="8" />
+		<cost value="1325" />
+		<components>
+			<item value="1028" />
+			<item value="1027" />
+		</components>
+	</item>
+
+	<item id="1031" name="Chain Vest">
+		<image value="1031_Chain_Vest" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,ar" />
+		<stats>
+			<stat type="ar" value="45" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="700" />
+	</item>
+
+	<item id="3028" name="Chalice of Harmony">
+		<image value="3028_Harmony_Ring" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,mregen,mr" />
+		<stats>
+			<stat type="mr" value="30" />
+			<stat type="mregen" value="7.5" />
+		</stats>
+		<tooltip value="${UP}Increases your ${MREGEN} by ${mregen}% per ${mmiss}% ${M} you are missing." />
+		<tooltipstats mregen="1" mmiss="1" />
+		<cost value="890" />
+		<components>
+			<item value="1005" />
+			<item value="1033" />
+		</components>
+	</item>
+
+	<item id="3172" name="Cloak and Dagger">
+		<image value="3172_Cloak_and_Dagger" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,as,crit,ten" />
+		<stats>
+			<stat type="as" value="20" />
+			<stat type="crit" value="20" />
+			<stat type="ten" value="35" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="1450" />
+	</item>
+
+	<item id="1018" name="Cloak of Agility">
+		<image value="1018_Cloak_of_Agility" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,crit" />
+		<stats>
+			<stat type="crit" value="18" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="830" />
+		<components>
+			<item value="1018" />
+			<item value="1042" />
+		</components>
+	</item>
+
+	<item id="1029" name="Cloth Armor">
+		<image value="1029_Cloth_Armour" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,ar" />
+		<stats>
+			<stat type="ar" value="18" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="300" />
+	</item>
+	
+	<item id="1042" name="Dagger">
+		<image value="1042_Dagger" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,as" />
+		<stats>
+			<stat type="as" value="15" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="420" />
+	</item>
+
+	<item id="3128" name="Deathfire Grasp">
+		<image value="055_Borses_Staff_of_Apocalypse" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,cd,mregen,ap" />
+		<stats>
+			<stat type="ap" value="60" />
+			<stat type="mregen" value="10" />
+		</stats>
+		<tooltip value="${UP}+${cd}% ${CD}\n${UA}Deals ${MD} to target ${CH} equal to ${dmg}% of their current health (+${dmgadd}% per ${dmgper} Ability Power) with a minimum of ${dmgmin} damage.\n	${dmgcd}${MCD}" />
+		<tooltipstats cd="15" dmg="30" dmgadd="3.5" dmgper="100" dmgmin="200" dmgcd="1" />
+		<cost value="2610" />
+		<components>
+			<item value="3108" />
+			<item value="3098" />
+		</components>
+	</item>
+
+	<item id="1055" name="Doran's Blade">
+		<image value="PetAttack" />
+		<mode value="classic,allmid" />
+		<sorting value="attack,defense,ad,ls,h" />
+		<stats>
+			<stat type="h" value="80" />
+			<stat type="ad" value="10" />
+			<stat type="ls" value="3" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="475" />
+	</item>
+
+	<item id="1056" name="Doran's Ring">
+		<image value="165_Harmony_Ring" />
+		<mode value="classic,allmid" />
+		<sorting value="magic,defense,mregen,ap,h" />
+		<stats>
+			<stat type="h" value="80" />
+			<stat type="mregen" value="5" />
+			<stat type="ap" value="15" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="475" />
+	</item>
+
+	<item id="1054" name="Doran's Shield">
+		<image value="033_Buckler" />
+		<mode value="classic,allmid" />
+		<sorting value="defense,ar,h,hregen" />
+		<stats>
+			<stat type="h" value="120" />
+			<stat type="ar" value="10" />
+			<stat type="hregen" value="8" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="475" />
+	</item>
+
+	<item id="3173" name="Eleisa's Miracle">
+		<image value="3173_Eleisas_Miracle" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,mregen,hregen,ten" />
+		<stats>
+			<stat type="hregen" value="25" />
+			<stat type="mregen" value="20" />
+			<stat type="ten" value="35" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="1300" />
+		<components>
+			<item value="3096" />
+		</components>
+	</item>
+
+	<item id="2038" name="Elixir of Agility">
+		<image value="2038_Potion_of_Elusiveness" />
+		<mode value="classic,allmid" />
+		<sorting value="consumable,attack,as,crit" />
+		<stats />
+		<tooltip value="${C2C}Grants 12-22% ${AS}, based on ${CH} level, and 8% ${CRIT} for ${len}${MINS}." />
+		<tooltipstats len="4" />
+		<cost value="250" />
+	</item>
+
+	<item id="2039" name="Elixir of Brilliance">
+		<image value="2039_Potion_of_Brilliance" />
+		<mode value="classic,allmid" />
+		<sorting value="consumable,magic,ap,cd" />
+		<stats />
+		<tooltip value="${C2C}Grants 20-40 ${AP}, based on ${CH} level, 10% ${CD} for ${len}${MINS}." />
+		<tooltipstats len="4" />
+		<cost value="250" />
+	</item>
+
+	<item id="2037" name="Elixir of Fortitude">
+		<image value="2037_Potion_of_Giant_Strength" />
+		<mode value="classic,allmid" />
+		<sorting value="consumable,attack,defense,ad,h" />
+		<stats />
+		<tooltip value="${C2C}Grants 140-235 ${H} based on ${CH} level, and 10 ${AD} for ${len}${MINS}." />
+		<tooltipstats len="4" />
+		<cost value="250" />
+	</item>
+
+	<item id="3097" name="Emblem of Valor">
+		<image value="3052_Reverb_Coil" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,defense,ar,hregen" />
+		<stats>
+			<stat type="ar" value="25" />
+		</stats>
+		<tooltip value="${UR}Nearby allied ${CH}s gain ${hregen} ${HREGEN}." />
+		<tooltipstats hregen="10" />
+		<cost value="800" />
+		<components>
+			<item value="1029" />
+			<item value="1006" />
+		</components>
+	</item>
+	
+	<item id="3184" name="Entropy">
+		<image value="3184_FrozenWarhammer" />
+		<mode value="dominion,allmid" />
+		<sorting value="attack,defense,ad,h" />
+		<stats>
+			<stat type="ad" value="70" />
+			<stat type="h" value="275" />
+		</stats>
+		<tooltip value="${P}${slowchance}% chance on hit to reduce your target's ${MV} by ${slow}% for ${slowlen}${S}.\n${UA}For ${len}${S}, your attacks reduce your target's ${MV} by ${slow}% and deal ${dmg} ${TD} over ${slowlen}${S}.\n	${cd}${SCD}" />
+		<tooltipstats slowchance="25" slow="30" slowlen="2.5" len="5" dmg="80" cd="60" />
+		<cost value="3565" />
+		<components>
+			<item value="1038" />
+			<item value="3044" />
+		</components>
+	</item>
+
+	<item id="3123" name="Executioner's Calling">
+		<image value="3069_Sword_of_Light_and_Shadow" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,ls,crit" />
+		<stats>
+			<stat type="ls" value="18" />
+			<stat type="crit" value="15" />
+		</stats>
+		<tooltip value="${UP}Your ${BA}s apply a mark to the target that deals ${dmg} bonus ${MD} each second for ${dmglen}${S}.\n${UA}Inflicts target enemy ${CH} with Grievous Wound, causing ${hreduc}% reduced healing and regeneration for ${hreduclen}${S}.\n	${cd}${SCD}" />
+		<tooltipstats dmg="4" dmglen="8" hreduc="50" hreduclen="8" cd="20" />
+		<cost value="1350" />
+		<components>
+			<item value="1051" />
+			<item value="1053" />
+		</components>
+	</item>
+	
+	<item id="1004" name="Faerie Charm">
+		<image value="1004_Faerie_Charm" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,mregen" />
+		<stats>
+			<stat type="mregen" value="3" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="180" />
+	</item>
+	
+	<item id="3108" name="Fiendish Codex">
+		<image value="113_Tome_of_Minor_Necro_Compulsion" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,cd,mregen,ap" />
+		<stats>
+			<stat type="ap" value="30" />
+			<stat type="mregen" value="7" />
+		</stats>
+		<tooltip value="${UP}+${cd}% ${CD}" />
+		<tooltipstats cd="10" />
+		<cost value="1245" />
+		<components>
+			<item value="1005" />
+			<item value="1052" />
+		</components>
+	</item>
+	
+	<item id="3109" name="Force of Nature">
+		<image value="3025_Gladiators_Pride" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,movement,hregen,mr" />
+		<stats>
+			<stat type="mr" value="76" />
+			<stat type="hregen" value="40" />
+			<stat type="mv" value="8" />
+		</stats>
+		<tooltip value="${UP}Restores ${hregen}% of your maximum ${H} every second." />
+		<tooltipstats hregen="0.35" />
+		<cost value="2610" />
+		<components>
+			<item value="1007" />
+			<item value="1057" />
+		</components>
+	</item>
+	
+	<item id="3110" name="Frozen Heart">
+		<image value="122_Frozen_Heart" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,m,cd,ar" />
+		<stats>
+			<stat type="ar" value="99" />
+			<stat type="m" value="500" />
+		</stats>
+		<tooltip value="${UP}+${cd}% ${CD}\n${UR}Reduces the ${AS} of nearby enemies by ${asreduc}%." />
+		<tooltipstats cd="20" asreduc="20" />
+		<cost value="2775" />
+		<components>
+			<item value="1029" />
+			<item value="3024" />
+		</components>
+	</item>
+	
+	<item id="3022" name="Frozen Mallet">
+		<image value="3022_Frozen_Heart" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,defense,ad,h" />
+		<stats>
+			<stat type="h" value="700" />
+			<stat type="ad" value="20" />
+		</stats>
+		<tooltip value="${UP}Your ${BA}s reduce your target's ${MV} by ${mslow}% for ${slowlen}${S} (${rslow}% for ranged attacks)." />
+		<tooltipstats mslow="40" rslow="30" slowlen="2.5" />
+		<cost value="3250" />
+		<components>
+			<item value="3044" />
+			<item value="1011" />
+		</components>
+	</item>
+	
+	<item id="1011" name="Giant's Belt">
+		<image value="1011_Mighty_Waistband_of_the_Reaver" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,h" />
+		<stats>
+			<stat type="h" value="430" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="1110" />
+	</item>
+	
+	<item id="3024" name="Glacial Shroud">
+		<image value="3024_Glacial_Shroud" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,m,cd,ar" />
+		<stats>
+			<stat type="m" value="425" />
+			<stat type="ar" value="45" />
+		</stats>
+		<tooltip value="${UP}+${cd}% ${CD}" />
+		<tooltipstats cd="15" />
+		<cost value="1525" />
+		<components>
+			<item value="1031" />
+			<item value="1027" />
+		</components>
+	</item>
+	
+	<item id="3026" name="Guardian Angel">
+		<image value="3026_Guardian_Angel" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,ar,mr" />
+		<stats>
+			<stat type="ar" value="68" />
+			<stat type="mr" value="38" />
+		</stats>
+		<tooltip value="${UP}Revives your ${CH} upon death, restoring ${h} ${H} and ${m} ${M}.\n	${cd}${MCD}" />
+		<tooltipstats h="750" m="375" cd="5" />
+		<cost value="2600" />
+		<components>
+			<item value="1031" />
+			<item value="1033" />
+			<item value="1029" />
+		</components>
+	</item>
+	
+	<item id="3124" name="Guinsoo's Rageblade">
+		<image value="3064_Spike_the_Ripper" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,magic,ad,as,ap" />
+		<stats>
+			<stat type="ad" value="35" />
+			<stat type="ap" value="45" />
+		</stats>
+		<tooltip value="${UP}On ${BA} or ability use, increases your ${AS} by ${as}% and ${AP} by ${ap}.\n	Lasts ${len}${S} (stacks up to ${cap} times)." />
+		<tooltipstats as="4" ap="6" len="5" cap="8" />
+		<cost value="2235" />
+		<components>
+			<item value="1037" />
+			<item value="1026" />
+		</components>
+	</item>
+	
+	<item id="3136" name="Haunting Guise">
+		<image value="3014_Doppleganker" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,ap,h,mrp" />
+		<stats>
+			<stat type="ap" value="25" />
+			<stat type="h" value="200" />
+		</stats>
+		<tooltip value="${UP}+${mpen} ${MPEN}" />
+		<tooltipstats mpen="20" />
+		<cost value="1485" />
+		<components>
+			<item value="1028" />
+			<item value="1052" />
+		</components>
+	</item>
+	
+	<item id="2003" name="Health Potion">
+		<image value="2017_Greater_Healing_Potion" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="consumable,defense,hregen" />
+		<stats />
+		<tooltip value="${C2C}Restores ${h} ${H} over ${len}${S}." />
+		<tooltipstats h="150" len="15" />
+		<cost value="35" />
+	</item>
+	
+	<item id="3132" name="Heart of Gold">
+		<image value="3051_Renewal_Tunic" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,h" />
+		<stats>
+			<stat type="h" value="250" />
+		</stats>
+		<tooltip value="${UP}Gain an additional 5 Gold every 10${S}." />
+		<tooltipstats />
+		<cost value="825" />
+		<components>
+			<item value="1028" />
+		</components>
+	</item>
+	
+	<item id="3155" name="Hexdrinker">
+		<image value="3155_Hexdrinker" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,defense,ad,mr" />
+		<stats>
+			<stat type="ad" value="25" />
+			<stat type="mr" value="30" />
+		</stats>
+		<tooltip value="${UP}If you would take ${MD} that would leave you at less than ${hlimit}% ${H}, you first gain a shield that absorbs ${shield} ${MD} for ${shieldlen}${S}.\n	${cd}${SCD}" />
+		<tooltipstats hlimit="30" shield="250" shieldlen="5" cd="60" />
+		<cost value="1400" />
+		<components>
+			<item value="1036" />
+			<item value="1033" />
+		</components>
+	</item>
+	
+	<item id="3146" name="Hextech Gunblade">
+		<image value="3146_Hextech_Gunblade" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,magic,ad,ls,ap,sv" />
+		<stats>
+			<stat type="ad" value="40" />
+			<stat type="ap" value="70" />
+			<stat type="ls" value="15" />
+		</stats>
+		<tooltip value="${UP}+${sv}% ${SV}\n${UA}Deals ${dmg} ${MD} and slows the target ${CH}'s ${MV} by ${slow}% for ${slowlen}${S} (${range} range).\n	${cd}${SCD}" />
+		<tooltipstats sv="20" dmg="300" slow="50" slowlen="3" range="700" cd="60" />
+		<cost value="3625" />
+		<components>
+			<item value="3145" />
+			<item value="3144" />
+		</components>
+	</item>
+	
+	<item id="3145" name="Hextech Revolver">
+		<image value="3145_Hextech_Revolver" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,ap,sv" />
+		<stats>
+			<stat type="ap" value="40" />
+		</stats>
+		<tooltip value="${UP}+${sv}% ${SV}" />
+		<tooltipstats sv="12" />
+		<cost value="1200" />
+		<components>
+			<item value="1052" />
+		</components>
+	</item>
+	
+	<item id="3187" name="Hextech Sweeper">
+		<image value="3187_HextechSweeper" />
+		<mode value="dominion" />
+		<sorting value="magic,defense,ap,cd,h" />
+		<stats>
+			<stat type="ap" value="40" />
+			<stat type="h" value="300" />
+		</stats>
+		<tooltip value="${UP}+${cdreduc}% ${CD}\n${UP}Dealing ${SD} grants vision of your target (including stealthed targets) for ${vislen}${S}.\n${UA}A stealth-detecting mist grants vision in the target area for ${mistlen}${S}.\n	${cd}${MCD}" />
+		<tooltipstats cdreduc="10" vislen="4" mistlen="6" cd="1" />
+		<cost value="1870" />
+		<components>
+			<item value="1052" />
+			<item value="3067" />
+		</components>
+	</item>
+	
+	<item id="3031" name="Infinity Edge">
+		<image value="3031_Infinity_Edge" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,ad,crit" />
+		<stats>
+			<stat type="ad" value="80" />
+			<stat type="crit" value="25" />
+		</stats>
+		<tooltip value="${UP}Your critical strikes now deal ${crit}% damage instead of 200%." />
+		<tooltipstats crit="250" />
+		<cost value="3830" />
+		<components>
+			<item value="1038" />
+			<item value="1037" />
+			<item value="1018" />
+		</components>
+	</item>
+	
+	<item id="3158" name="Ionian Boots of Lucidity">
+		<image value="3158_Ionian_Boots_of_Lucidity" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="movement,magic,cd" />
+		<stats />
+		<tooltip value="${UP}${cd}% ${CD}\n${UP}Enhanced Movement ${mv} (${DNS}other Boots)" />
+		<tooltipstats cd="15" mv="2"/>
+		<cost value="1050" />
+		<components>
+			<item value="1001" />
+		</components>
+	</item>
+	
+	<item id="3178" name="Ionic Spark">
+		<image value="3178_IonicSpark" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,defense,as,h" />
+		<stats>
+			<stat type="as" value="50" />
+			<stat type="h" value="250" />
+		</stats>
+		<tooltip value="${UP}Every fourth ${BA} unleashes a chain lightning, dealing ${dmg} ${MD} to up to ${target} targets." />
+		<tooltipstats dmg="110" target="4" />
+		<cost value="2300" />
+		<components>
+			<item value="1028" />
+			<item value="1043" />
+		</components>
+	</item>
+	
+	<item id="3098" name="Kage's Lucky Pick">
+		<image value="3090_Thoughtbreaker" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,ap" />
+		<stats>
+			<stat type="ap" value="25" />
+		</stats>
+		<tooltip value="${UP}Gain an additional 5 Gold every 10${S}." />
+		<tooltipstats />
+		<cost value="765" />
+		<components>
+			<item value="1052" />
+		</components>
+	</item>
+	
+	<item id="3067" name="Kindlegem">
+		<image value="3067_Kindlegem" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,cd,h" />
+		<stats>
+			<stat type="h" value="200" />
+		</stats>
+		<tooltip value="${UP}+${cd}% ${CD}" />
+		<tooltipstats cd="10" />
+		<cost value="850" />
+		<components>
+			<item value="1028" />
+		</components>
+	</item>
+	
+	<item id="3186" name="Kitae's Boodrazor">
+		<image value="3186_KitaesBloodrazor" />
+		<mode value="dominion,allmid" />
+		<sorting value="attack,ad,as" />
+		<stats>
+			<stat type="ad" value="30" />
+			<stat type="as" value="40" />
+		</stats>
+		<tooltip value="${UP}Your ${BA}s deal ${MD} equal to ${dmg}% of the target's maximum ${H}." />
+		<tooltipstats dmg="2.5" />
+		<cost value="2725" />
+		<components>
+			<item value="1037" />
+			<item value="1043" />
+		</components>
+	</item>
+		
+	<item id="3035" name="Last Whisper">
+		<image value="3035_Last_Whisper" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,ad,arp" />
+		<stats>
+			<stat type="ad" value="40" />
+		</stats>
+		<tooltip value="${UP}+${arpen}% ${APEN}" />
+		<tooltipstats arpen="40" />
+		<cost value="2290" />
+		<components>
+			<item value="1037" />
+			<item value="1036" />
+		</components>
+	</item>
+	
+	<item id="3138" name="Leviathan">
+		<image value="3138_Leviathan" />
+		<mode value="classic" />
+		<sorting value="defense,h" />
+		<stats>
+			<stat type="h" value="180" />
+		</stats>
+		<tooltip value="${UP}Your ${CH} gains ${gain} ${H} per stack, receiving 2 stacks for a kill or 1 stack for an assist.\n	This effect can stack 20 times; you lose a third of your stacks if you die.\n	At 20 stacks, your ${CH} takes ${dmgreduc}% less damage." />
+		<tooltipstats gain="32" dmgreduc="15" />
+		<cost value="1275" />
+		<components>
+			<item value="1028" />
+		</components>
+	</item>
+	
+	<item id="3100" name="Lich Bane">
+		<image value="126_Zeal_and_Sheen" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,movement,m,ap,mr" />
+		<stats>
+			<stat type="m" value="350" />
+			<stat type="ap" value="80" />
+			<stat type="mr" value="30" />
+			<stat type="mv" value="7" />
+		</stats>
+		<tooltip value="${UP}After using an ability, your next ${BA} gains bonus ${PD} equal to your ${AP}\n	${cd}${SCD}\n${DNS}Sheen or Trinity Force." />
+		<tooltipstats cd="2" />
+		<cost value="3470" />
+		<components>
+			<item value="3057" />
+			<item value="1033" />
+			<item value="1026" />
+		</components>
+	</item>
+	
+	<item id="3190" name="Locket of the Iron Solari">
+		<image value="3190_Crest_of_the_iron_solari" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,h,hregen" />
+		<stats>
+			<stat type="h" value="300" />
+			<stat type="ar" value="35" />
+		</stats>
+		<tooltip value="${UR}Nearby allied ${CH}s gain ${hregen} ${HREGEN}.\n${UA}Shield yourself and nearby allies for ${len}${S}, absorbing up to ${shield} (+${shieldgain} per level) damage\n	${cd}${SCD}" />
+		<tooltipstats hregen="15" len="5" shield="50" shieldgain="10" cd="60" />
+		<cost value="2225" />
+		<components>
+			<item value="3132" />
+			<item value="3097" />
+		</components>
+	</item>
+	
+	<item id="1036" name="Long Sword">
+		<image value="1036_Long_Sword" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,ad" />
+		<stats>
+			<stat type="ad" value="10" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="415" />
+	</item>
+	
+	<item id="3126" name="Madred's Bloodrazor">
+		<image value="3126_Madreds_Bloodrazor" />
+		<mode value="classic" />
+		<sorting value="attack,ad,as" />
+		<stats>
+			<stat type="ad" value="40" />
+			<stat type="as" value="40" />
+			<stat type="ar" value="25" />
+		</stats>
+		<tooltip value="${UP}Your ${BA}s deal bonus ${MD} equal to ${dmg}% of the target's maximum ${H}." />
+		<tooltipstats dmg="4" />
+		<cost value="3800" />
+		<components>
+			<item value="3106" />
+			<item value="1037" />
+			<item value="1043" />
+		</components>
+	</item>
+	
+	<item id="3106" name="Madred's Razors">
+		<image value="139_Strygwyrs_Reaver" />
+		<mode value="classic" />
+		<sorting value="attack,defense,ad,ar" />
+		<stats>
+			<stat type="ad" value="15" />
+			<stat type="ar" value="23" />
+		</stats>
+		<tooltip value="${UP}Your ${BA}s against minions and monsters have a ${chance}% chance to deal ${dmg} bonus ${MD}." />
+		<tooltipstats chance="20" dmg="300" />
+		<cost value="1000" />
+		<components>
+			<item value="1036" />
+			<item value="1029" />
+		</components>
+	</item>
+	
+	<item id="3114" name="Malady">
+		<image value="3114_Malady" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,magic,as,ap" />
+		<stats>
+			<stat type="ap" value="25" />
+			<stat type="as" value="50" />
+		</stats>
+		<tooltip value="${UP}Your ${BA}s deal ${dmg} bonus ${MD} and reduce the target's ${MR} by ${shred} for ${len}${S}.\n	Effect stacks up to ${stacks} times." />
+		<tooltipstats dmg="20" shred="6" len="8" stacks="4" />
+		<cost value="1825" />
+		<components>
+			<item value="1042" />
+			<item value="1052" />
+		</components>
+	</item>
+	
+	<item id="3037" name="Mana Manipulator">
+		<image value="3037_Mana_Manipulator" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,mregen" />
+		<stats />
+		<tooltip value="${UR}Nearby allied ${CH}s gain ${mregen} ${MREGEN}." />
+		<tooltipstats mregen="7.2" />
+		<cost value="475" />
+		<components>
+			<item value="1004" />
+		</components>
+	</item>
+	
+	<item id="2004" name="Mana Potion">
+		<image value="2018_Greater_Mana_Potion" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="consumable,magic,mregen" />
+		<stats />
+		<tooltip value="${C2C}Restores ${m} ${M} over ${len}${S}." />
+		<tooltipstats m="100" len="15" />
+		<cost value="35" />
+	</item>
+	
+	<item id="3004" name="Manamune">
+		<image value="3004_Manamune" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,magic,ad,m,mregen" />
+		<stats>
+			<stat type="m" value="350" />
+			<stat type="mregen" value="7" />
+			<stat type="ad" value="20" />
+		</stats>
+		<tooltip value="${UP}Grants ${AD} equal to ${dmg}% of your maximum ${M}.\n${UP}Each time you ${BA}, your maximum ${M} increases by ${again}.\n	${cd}${SCD}\nEach time you use an ability, your maximum ${M} increases by ${mgain}.\n	${cd}${SCD}\n	Bonus caps at ${mcap} ${M}.\n${DNS}Tear of the Goddess or Archangel's Staff." />
+		<tooltipstats dmg="2" cd="3" again="1" mgain="4" mcap="1000" />
+		<cost value="2110" />
+		<components>
+			<item value="3070" />
+			<item value="1036" />
+		</components>
+	</item>
+		
+	<item id="3156" name="Maw of Malmortius">
+		<image value="3156_PhaseBlade" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,defense,ad,mr" />
+		<stats>
+			<stat type="ad" value="55" />
+			<stat type="mr" value="36" />
+		</stats>
+		<tooltip value="${UP}+${ad} ${AD} for every ${h}% health missing.\n${UP}If you would take ${MD} which would leave you at less than ${maxh}% of your maximum health, you gain a shield which absorbs ${mdmg} ${MD} for ${len}${S}.\n	${cd}${SCD}" />
+		<tooltipstats ad="1" h="2.5" maxh="30" mdmg="400" len="4" cd="60" />
+		<cost value="3300" />
+		<components>
+			<item value="3155" />
+			<item value="1037" />
+		</components>
+	</item>
+	
+	<item id="3041" name="Mejai's Soulstealer">
+		<image value="3041_Mejais_Soulstealer" />
+		<mode value="classic" />
+		<sorting value="magic,ap" />
+		<stats>
+			<stat type="ap" value="20" />
+		</stats>
+		<tooltip value="${UP}Your ${CH} gains ${gain} ${AP} per stack, receiving 2 stacks for a kill or 1 stack for an assist.\n	This effect can stack 20 times; you lose a third of your stacks if you die.\n	At 20 stacks, your ${CH} gains ${cd}% ${CD}" />
+		<tooltipstats gain="8" cd="15" />
+		<cost value="1235" />
+		<components>
+			<item value="1052" />
+		</components>
+	</item>
+	
+	<item id="1005" name="Meki Pendant">
+		<image value="1005_Meki_Pendant" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,mregen" />
+		<stats>
+			<stat type="mregen" value="7" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="390" />
+	</item>
+	
+	<item id="3111" name="Mercury's Treads">
+		<image value="176_Rogues_Chucks" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="movement,defense,mr,ten" />
+		<stats>
+			<stat type="mr" value="25" />
+			<stat type="ten" value="35" />
+		</stats>
+		<tooltip value="${UP}Enhanced Movement ${mv} (${DNS}other Boots)" />
+		<tooltipstats mv="2" />
+		<cost value="1200" />
+		<components>
+			<item value="1001" />
+			<item value="1033" />
+		</components>
+	</item>
+	
+	<item id="3170" name="Moonflair Spellblade">
+		<image value="3170_Moonflair_Spellblade" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,ap,ten" />
+		<stats>
+			<stat type="ap" value="50" />
+			<stat type="ten" value="35" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="1200" />
+		<components>
+			<item value="1026" />
+		</components>
+	</item>
+	
+	<item id="3165" name="Morello's Evil Tome">
+		<image value="3165_Noxusnomicon" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,cd,mregen,ap" />
+		<stats>
+			<stat type="ap" value="75" />
+			<stat type="mregen" value="12" />
+		</stats>
+		<tooltip value="${UP}+${cd}% ${CD}" />
+		<tooltipstats cd="20" />
+		<cost value="2350" />
+		<components>
+			<item value="1026" />
+			<item value="3108" />
+		</components>
+	</item>
+		
+	<item id="3115" name="Nashor's Tooth">
+		<image value="3115_Nashors_Tooth" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,magic,as,cd,mregen,ap" />
+		<stats>
+			<stat type="as" value="50" />
+			<stat type="ap" value="65" />
+			<stat type="mregen" value="10" />
+		</stats>
+		<tooltip value="${UP}+${cd}% ${CD}" />
+		<tooltipstats cd="25" />
+		<cost value="2735" />
+		<components>
+			<item value="3101" />
+			<item value="3108" />
+		</components>
+	</item>
+	
+	<item id="1058" name="Needlessly Large Rod">
+		<image value="1058_Needlessly_Large_Wand" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,ap" />
+		<stats>
+			<stat type="ap" value="80" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="1600" />
+	</item>
+	
+	<item id="1057" name="Negatron Cloak">
+		<image value="161_Elementium_Woven_Mantle" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,mr" />
+		<stats>
+			<stat type="mr" value="48" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="740" />
+	</item>
+	
+	<item id="3047" name="Ninja Tabi">
+		<image value="3047_Phase_Striders" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="movement,defense,ar" />
+		<stats>
+			<stat type="ar" value="25" />
+		</stats>
+		<tooltip value="${UP}Reduces the damage taken from non-turret ${BA}s by ${dmgreduc}%.\n${UP}Enhanced Movement ${mv} (${DNS}other Boots)" />
+		<tooltipstats dmgreduc="10" mv="2" />
+		<cost value="850" />
+		<components>
+			<item value="1001" />
+			<item value="1029" />
+		</components>
+	</item>
+	
+	<item id="1033" name="Null-Magic Mantle">
+		<image value="1033_Elementium_Threaded_Cloak" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,mr" />
+		<stats>
+			<stat type="mr" value="24" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="400" />
+	</item>
+	
+	<item id="3180" name="Odyn's Veil">
+		<image value="3180_OdynsVeil" />
+		<mode value="dominion" />
+		<sorting value="defense,magic,h,mr,m" />
+		<stats>
+			<stat type="h" value="350" />
+			<stat type="mr" value="50" />
+			<stat type="m" value="350" />
+		</stats>
+		<tooltip value="${UP}Reduces and stores ${dmgstore}% of the ${MD} dealt to your ${CH}.\n${UA}Deals ${dmgbase} + (stored magic) [max: ${dmgcap}] to nearby enemy units.\n	${cd} second cooldown" />
+		<tooltipstats dmgstore="10" dmgbase="200" dmgcap="400" cd="90" />
+		<cost value="2715" />
+		<components>
+			<item value="1057" />
+			<item value="3010" />
+		</components>
+	</item>
+	
+	<item id="2042" name="Oracle's Elixir">
+		<image value="2026_Arcane_Protection_Potion" />
+		<mode value="classic" />
+		<sorting value="consumable" />
+		<stats />
+		<tooltip value="${C2C}Grants stealth detection for ${len}${MINS} or until your ${CH} dies." />
+		<tooltipstats len="5" />
+		<cost value="400" />
+	</item>
+	
+	<item id="2047" name="Oracle's Extract">
+		<image value="2047_OraclesExtract" />
+		<mode value="dominion,allmid" />
+		<sorting value="consumable" />
+		<stats />
+		<tooltip value="${C2C}Grants stealth detection until your ${CH} dies." />
+		<tooltipstats />
+		<cost value="400" />
+	</item>
+	
+	<item id="3044" name="Phage">
+		<image value="3044_Phage" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,defense,ad,h" />
+		<stats>
+			<stat type="h" value="225" />
+			<stat type="ad" value="18" />
+		</stats>
+		<tooltip value="${UP}Your ${BA}s have a ${chance}% chance to slow your target's ${MV} by ${slow}% for ${slowlen}${S}." />
+		<tooltipstats chance="25" slow="30" slowlen="2.5" />
+		<cost value="1315" />
+		<components>
+			<item value="1028" />
+			<item value="1036" />
+		</components>
+	</item>
+	
+	<item id="3046" name="Phantom Dancer">
+		<image value="3046_Phantom_Dancer" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,movement,as,crit" />
+		<stats>
+			<stat type="as" value="55" />
+			<stat type="crit" value="30" />
+			<stat type="mv" value="15" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="2845" />
+		<components>
+			<item value="3086" />
+			<item value="1042" />
+			<item value="1018" />
+		</components>
+	</item>
+	
+	<item id="3096" name="Philosopher's Stone">
+		<image value="3062_Soul_Pendant" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,mregen,hregen" />
+		<stats>
+			<stat type="hregen" value="18" />
+			<stat type="mregen" value="8"/>
+		</stats>
+		<tooltip value="${UP}Gain an additional 5 Gold every 10${S}." />
+		<tooltipstats />
+		<cost value="800" />
+		<components>
+			<item value="1007" />
+			<item value="1004" />
+		</components>
+	</item>
+	
+	<item id="1037" name="Pickaxe">
+		<image value="1037_Broadsword" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,ad" />
+		<stats>
+			<stat type="ad" value="25" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="975" />
+	</item>
+	
+	<item id="1062" name="Prospector's Blade">
+		<image value="1062_ProspectorsBlade" />
+		<mode value="dominion" />
+		<sorting value="attack,defense,ad,ls,h" />
+		<stats>
+			<stat type="ad" value="20" />
+			<stat type="ls" value="5" />
+		</stats>
+		<tooltip value="${UP}+${h} Health\n	(${DNS}other Prospector items)" />
+		<tooltipstats h="200" />
+		<cost value="950" />
+	</item>
+	
+	<item id="1063" name="Prospector's Ring">
+		<image value="1063_ProspectorsRing" />
+		<mode value="dominion" />
+		<sorting value="magic,defense,ap,mregen,h" />
+		<stats>
+			<stat type="ap" value="30" />
+			<stat type="mregen" value="7" />
+		</stats>
+		<tooltip value="${UP}+${h} Health\n	(${DNS}other Prospector items)" />
+		<tooltipstats h="200" />
+		<cost value="950" />
+	</item>
+	
+	<item id="3140" name="Quicksilver Sash">
+		<image value="1008_Sash_of_Valor" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,mr" />
+		<stats>
+			<stat type="mr" value="56" />
+		</stats>
+		<tooltip value="${UA}Removes all debuffs from your ${CH}.\n	${cd}${SCD}" />
+		<tooltipstats cd="90" />
+		<cost value="1440" />
+		<components>
+			<item value="1057" />
+		</components>
+	</item>
+	
+	<item id="3089" name="Rabadon's Deathcap">
+		<image value="3089_Banksys_Wizard_Hat" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,ap" />
+		<stats>
+			<stat type="ap" value="140" />
+		</stats>
+		<tooltip value="${UP}Increases ${AP} by ${ap}%" />
+		<tooltipstats ap="30" />
+		<cost value="3600" />
+		<components>
+			<item value="1058" />
+			<item value="1026" />
+		</components>
+	</item>
+	
+	<item id="3143" name="Randuin's Omen">
+		<image value="3143_Randuins_Omen" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,cd,ar,h,hregen" />
+		<stats>
+			<stat type="h" value="350" />
+			<stat type="ar" value="75" />
+			<stat type="hregen" value="25" />
+		</stats>
+		<tooltip value="${UP}${cdreduc}% ${CD}\n${UP}20% chance on being hit to slow the attacker's ${MV} and ${AS} by ${slow}% for ${slowlen}${S}.\n${UA}Slows ${MV} and ${AS} of surrounding units by ${slow}% for ${slowlenbase}${S} + ${slowlenadd}${S} for each 100 ${AR} and ${MR} your ${CH} has.\n	${cd}${SCD}" />
+		<tooltipstats cdreduc="5" slow="35" slowlen="3" slowlenbase="2" slowlenadd="0.5" cd="60" />
+		<cost value="3075" />
+		<components>
+			<item value="3132" />
+			<item value="1029" />
+			<item value="3082" />
+		</components>
+	</item>
+	
+	<item id="1043" name="Recurve Bow">
+		<image value="1043_Steel_Stiletto" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,as" />
+		<stats>
+			<stat type="as" value="40" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="1050" />
+	</item>
+		
+	<item id="1007" name="Regrowth Pendant">
+		<image value="1007_Regrowth_Pendant" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,hregen" />
+		<stats>
+			<stat type="hregen" value="15" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="435" />
+	</item>
+	
+	<item id="1006" name="Rejuvenation Bead">
+		<image value="1006_Rejuvenation_Bead" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,hregen" />
+		<stats>
+			<stat type="hregen" value="8" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="250" />
+	</item>
+		
+	<item id="3027" name="Rod of Ages">
+		<image value="3027_Guinsoos_Rod_of_Oblivion" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,m,ap,h" />
+		<stats>
+			<stat type="h" value="450" />
+			<stat type="m" value="525" />
+			<stat type="ap" value="60" />
+		</stats>
+		<tooltip value="${P}Your ${CH} gains ${h} ${H}, ${m} ${M}, and ${ap} ${AP} every${MIN} (up to ${cap} times).\n${UP}On leveling up, restores 250 Health and 200 Mana over 8${S}." />
+		<tooltipstats h="18" m="20" ap="2" cap="10" />
+		<cost value="3035" />
+		<components>
+			<item value="1026" />
+			<item value="3010" />
+		</components>
+	</item>
+	
+	<item id="1028" name="Ruby Crystal">
+		<image value="1028_Ruby_Sphere" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,h" />
+		<stats>
+			<stat type="h" value="180" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="475" />
+	</item>
+	
+	<item id="3116" name="Rylai's Crystal Scepter">
+		<image value="3116_Rylais_Sceptre" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,ap,h" />
+		<stats>
+			<stat type="h" value="500" />
+			<stat type="ap" value="80" />
+		</stats>
+		<tooltip value="${UP}Dealing ${SD} slows the target's ${MV} by ${mslow}% for ${len}${S} (${rslow}% for multi-target and damage-over-time spells)." />
+		<tooltipstats mslow="35" rslow="15" len="1.5" />
+		<cost value="3105" />
+		<components>
+			<item value="1026" />
+			<item value="1011" />
+			<item value="1052" />
+		</components>
+	</item>
+	
+	<item id="1027" name="Sapphire Crystal">
+		<image value="1027_Sapphire_Sphere" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,m" />
+		<stats>
+			<stat type="m" value="200" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="400" />
+	</item>
+	
+	<item id="3181" name="Sanguine Blade">
+		<image value="3181_SanguineBlade" />
+		<mode value="dominion,allmid" />
+		<sorting value="attack,ad,ls" />
+		<stats>
+			<stat type="ad" value="60" />
+			<stat type="ls" value="15" />
+		</stats>
+		<tooltip value="${P}Your ${BA}s grant +${dmg} ${AD} and +${ls}% ${LS} for ${len}${S}\n	Effect stacks up to ${cap} times." />
+		<tooltipstats dmg="5" ls="1" len="4" cap="7" />
+		<cost value="2900" />
+		<components>
+			<item value="1038" />
+			<item value="1053" />
+		</components>
+	</item>
+	
+	<item id="3057" name="Sheen">
+		<image value="3057_Sheen" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,m,ap" />
+		<stats>
+			<stat type="m" value="250" />
+			<Stat type="ap" value="25" />
+		</stats>
+		<tooltip value="${UP}After using an ability, your next ${BA} deals bonus ${PD} equal to your base ${AD}.\n	${cd}${SCD}\n${DNS}Trinity Force or Lich Bane." />
+		<tooltipstats cd="2" />
+		<cost value="1260" />
+		<components>
+			<item value="1027" />
+			<item value="1052" />
+		</components>
+	</item>
+	
+	<item id="3069" name="Shurelya's Reverie">
+		<image value="3069_Shurelyas_Firecrest" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,movement,cd,mregen,h,hregen" />
+		<stats>
+			<stat type="h" value="330" />
+			<stat type="hregen" value="30" />
+			<stat type="mregen" value="15" />
+		</stats>
+		<tooltip value="${UP}+${cdreduc}% ${CD}\n${UA}Nearby allied ${CH}s gain ${mv}% ${MV} for ${mvlen}${S}.\n	${cd}${SCD}" />
+		<tooltipstats cdreduc="15" mv="40" mvlen="3" cd="60" />
+		<cost value="2200" />
+		<components>
+			<item value="3096" />
+			<item value="3067" />
+		</components>
+	</item>
+	
+	<item id="2044" name="Sight Ward">
+		<image value="1020_Glowing_Orb" />
+		<mode value="classic" />
+		<sorting value="consumable" />
+		<stats />
+		<tooltip value="${C2C}Places an invisible ward that can see visible enemy units.\n	Lasts ${len}${MINS}." />
+		<tooltipstats len="3" />
+		<cost value="75" />
+	</item>
+	
+	<item id="3020" name="Sorcerer's Shoes">
+		<image value="3020_Flamewalkers" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="movement,magic,mrp" />
+		<stats>
+			<stat type="mpen" value="20" />
+		</stats>
+		<tooltip value="${UP}Enhanced Movement ${mv} (${DNS}other Boots)" />
+		<tooltipstats mv="2" />
+		<cost value="1100" />
+		<components>
+			<item value="1001" />
+		</components>
+	</item>
+	
+	<item id="3099" name="Soul Shroud">
+		<image value="3063_Soul_Shroud" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,cd,mregen,h" />
+		<stats>
+			<stat type="h" value="520" />
+		</stats>
+		<tooltip value="${UR}Nearby allied ${CH}s gain ${cd} ${CD} and ${mregen} ${MREGEN}." />
+		<tooltipstats mregen="12" cd="10" />
+		<cost value="2285" />
+		<components>
+			<item value="3037" />
+			<item value="3067" />
+			<item value="1028" />
+		</components>
+	</item>
+	
+	<item id="3065" name="Spirit Visage">
+		<image value="3065_Spirit_Visage" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,cd,h,mr" />
+		<stats>
+			<stat type="mr" value="30" />
+			<stat type="h" value="250" />
+		</stats>
+		<tooltip value="${UP}Reduces ability cooldowns by ${cd}% and increases your healing and regeneration effects on yourself by ${hregen}%." />
+		<tooltipstats cd="10" hregen="15" />
+		<cost value="1550" />
+		<components>
+			<item value="3067" />
+			<item value="1033" />
+		</components>
+	</item>
+	
+	<item id="3101" name="Stinger">
+		<image value="059_Sheen" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,magic,as,cd" />
+		<stats>
+			<stat type="as" value="40" />
+		</stats>
+		<tooltip value="${UP}+${cd}% ${CD}" />
+		<tooltipstats cd="10" />
+		<cost value="1140" />
+		<components>
+			<item value="1042" />
+		</components>
+	</item>
+	
+	<item id="3068" name="Sunfire Cape">
+		<image value="3068_Sunfire_Cape" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,ar,h" />
+		<stats>
+			<stat type="h" value="450" />
+			<stat type="ar" value="45" />
+		</stats>
+		<tooltip value="${UP}Deals ${dmg} ${MD} per second to nearby enemies." />
+		<tooltipstats dmg="35" />
+		<cost value="2610" />
+		<components>
+			<item value="1031" />
+			<item value="1011" />
+		</components>
+	</item>
+	
+	<item id="3141" name="Sword of the Occult">
+		<image value="3034_Kenyus_Kukri" />
+		<mode value="classic" />
+		<sorting value="attack,ad" />
+		<stats>
+			<stat type="ad" value="10" />
+		</stats>
+		<tooltip value="${UP}Your ${CH} gains 5 damage per stack, receiving 2 stacks for a kill or 1 stack for an assist.\n	This effect can stack 20 times; you lose a third of your stacks if you die.\n	At 20 stacks, your ${CH}'s ${MV} is increased by ${mv}%." />
+		<tooltipstats mv="15" />
+		<cost value="1369" />
+		<components>
+			<item value="1036" />
+		</components>
+	</item>
+	
+	<item id="3070" name="Tear of the Goddess">
+		<image value="3070_Tear_of_the_Goddess" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,m,mregen" />
+		<stats>
+			<stat type="m" value="350" />
+			<stat type="mregen" value="7" />
+		</stats>
+		<tooltip value="${UP}Each time you use an ability, your maximum ${M} increases by ${m}.\n	${cd}${SCD}\n	Bonus caps at +${cap} Mana.\n${DNS}Archangel's Staff or Manamune." />
+		<tooltipstats m="4" cd="3" cap="1000" />
+		<cost value="995" />
+		<components>
+			<item value="1027" />
+			<item value="1005" />
+		</components>
+	</item>
+	
+	<item id="3071" name="The Black Cleaver">
+		<image value="3071_The_Black_Cleaver" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,ad,as" />
+		<stats>
+			<stat type="ad" value="55" />
+			<stat type="as" value="30" />
+		</stats>
+		<tooltip value="${UP}Your ${BA}s reduce your target's ${AR} by ${arreduc} for ${len}${S}.\n	Effect stacks up to ${cap} times." />
+		<tooltipstats arreduc="15" len="5" cap="3" />
+		<cost value="2865" />
+		<components>
+			<item value="1038" />
+			<item value="1042" />
+		</components>
+	</item>
+	
+	<item id="3072" name="The Bloodthirster">
+		<image value="3072_The_Bloodthirster" />
+		<mode value="classic" />
+		<sorting value="attack,ad,ls" />
+		<stats>
+			<stat type="ad" value="60" />
+			<stat type="ls" value="12" />
+		</stats>
+		<tooltip value="${P}Gain bonus +${ad} ${AD} and +${ls}% ${LS} per kill.\n	Bonuses cap at +40 ${AD} and 10% ${LS}.\n	Half of the bonuses are lost upon death." />
+		<tooltipstats ad="1" ls="0.2" />
+		<cost value="3000" />
+		<components>
+			<item value="1038" />
+			<item value="1053" />
+		</components>
+	</item>
+	
+	<item id="3134" name="The Brutalizer">
+		<image value="1034_Big_Stick" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,magic,ad,cd,arp" />
+		<stats>
+			<stat type="ad" value="25" />
+		</stats>
+		<tooltip value="${UP}+${cd}% ${CD}\n${UP}+${apen} ${APEN}." />
+		<tooltipstats cd="10" apen="15" />
+		<cost value="1337" />
+		<components>
+			<item value="1036" />
+		</components>
+	</item>
+	
+	<item id="3185" name="The Lightbringer">
+		<image value="3185_Lightbringer" />
+		<mode value="dominion,allmid" />
+		<sorting value="attack,as,ad" />
+		<stats>
+			<stat type="as" value="50" />
+			<stat type="ad" value="20" />
+		</stats>
+		<tooltip value="${P}Your ${BA}s grant vision of your target for ${len}${S}." />
+		<tooltipstats len="5" />
+		<cost value="1750" />
+		<components>
+			<item value="1043" />
+			<item value="1036" />
+		</components>
+	</item>
+	
+	<item id="3075" name="Thornmail">
+		<image value="3075_Thornmail" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,ar" />
+		<stats>
+			<stat type="ar" value="100" />
+		</stats>
+		<tooltip value="${UP}On being hit by ${BA}s, returns ${dmg}% of damage taken as ${MD}." />
+		<tooltipstats dmg="30" />
+		<cost value="2000" />
+		<components>
+			<item value="1031" />
+			<item value="1029" />
+		</components>
+	</item>
+	
+	<item id="3077" name="Tiamat">
+		<image value="3077_Tiamat" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,magic,defense,ad,mregen,hregen" />
+		<stats>
+			<stat type="ad" value="50" />
+			<stat type="hregen" value="15" />
+			<stat type="mregen" value="5" />
+		</stats>
+		<tooltip value="${P}Your ${BA}s splash, dealing ${mdmg}% area damage around the target (${rdmg}% for ranged attacks)." />
+		<tooltipstats mdmg="50" rdmg="35" />
+		<cost value="2070" />
+		<components>
+			<item value="1037" />
+			<item value="1036" />
+			<item value="1006" />
+			<item value="1004" />
+		</components>
+	</item>
+	
+	<item id="3078" name="Trinity Force">
+		<image value="3078_Trinity_Force" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,magic,defense,movement,ad,as,crit,m,ap,h" />
+		<stats>
+			<stat type="ad" value="30" />
+			<stat type="ap" value="30" />
+			<stat type="as" value="30" />
+			<stat type="crit" value="15" />
+			<stat type="mv" value="12" />
+			<stat type="h" value="250" />
+			<stat type="m" value="250" />
+		</stats>
+		<tooltip value="${UP}Your ${BA}s have a ${chance}% chance to slow your target's ${MV} by ${slow}% for ${slowlen}${S}.\n${UP}After using an ability, your next ${BA} deals bonus ${PD} equal to ${dmg}% of your base ${AD}\n	${cd}${SCD}\n${DNS}Sheen or Lich Bane." />
+		<tooltipstats chance="25" slow="35" slowlen="2.5" dmg="150" cd="2" />
+		<cost value="4070" />
+		<components>
+			<item value="3086" />
+			<item value="3044" />
+			<item value="3057" />
+		</components>
+	</item>
+	
+	<item id="1053" name="Vampiric Scepter">
+		<image value="3054_Scepter_of_Death" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,ls" />
+		<stats>
+			<stat type="ls" value="10" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="450" />
+	</item>
+	
+	<item id="2043" name="Vision Ward">
+		<image value="096_Eye_of_the_Observer" />
+		<mode value="classic" />
+		<sorting value="consumable" />
+		<stats />
+		<tooltip value="${C2C}Places an invisible ward that reveals the surrounding area stealthed units in the area.\n	Lasts ${len}${MINS}." />
+		<tooltipstats len="3" />
+		<cost value="125" />
+	</item>
+	
+	<item id="3135" name="Void Staff">
+		<image value="3088_Zettas_Mana-Stick" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,ap,mrp" />
+		<stats>
+			<stat type="ap" value="70" />
+		</stats>
+		<tooltip value="${UP}+${mpen}% ${MPEN}" />
+		<tooltipstats mpen="40" />
+		<cost value="2295" />
+		<components>
+			<item value="1026" />
+			<item value="1052" />
+		</components>
+	</item>
+	
+	<item id="3082" name="Warden's Mail">
+		<image value="3082_Wardens_Mail" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,ar,hregen" />
+		<stats>
+			<stat type="ar" value="50" />
+			<stat type="hregen" value="20" />
+		</stats>
+		<tooltip value="${UP}${chance}% chance on being hit by ${BA}s to slow the attacker's ${MV} and ${AS} by ${slow}% for ${slowlen}${S}." />
+		<tooltipstats chance="20" slow="35" slowlen="3" />
+		<cost value="1350" />
+		<components>
+			<item value="1031" />
+			<item value="1006" />
+		</components>
+	</item>
+	
+	<item id="3083" name="Warmog's Armor">
+		<image value="3083_Warmog_The_Living_Armor" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="defense,h,hregen" />
+		<stats>
+			<stat type="h" value="920" />
+			<stat type="hregen" value="30" />
+		</stats>
+		<tooltip value="${P}Minion kills permanently grant ${h} ${H} and ${hregen} ${HREGEN}. ${CH} kills and assists grant ${h2} ${H} and ${hregen2} ${HREGEN}.\n	Bonuses cap at +${hcap} ${H}, and +${hregencap} ${HREGEN}." />
+		<tooltipstats h="3.5" hregen="0.1" h2="35" hregen2="1" hcap="350" hregencap="10" />
+		<cost value="3000" />
+		<components>
+			<item value="1011" />
+			<item value="1028" />
+			<item value="1007" />
+		</components>
+	</item>
+	
+	<item id="3152" name="Will of the Ancients">
+		<image value="2008_Tome_of_Combat_Mastery" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,ap,sv" />
+		<stats>
+			<stat type="ap" value="50" />
+		</stats>
+		<tooltip value="${UR}Grants nearby allied ${CH}s ${ap} ${AP} and ${sv}% ${SV}" />
+		<tooltipstats ap="30" sv="20" />
+		<cost value="2100" />
+		<components>
+			<item value="3145" />
+			<item value="1052" />
+		</components>
+	</item>
+		
+	<item id="3091" name="Wit's End">
+		<image value="3091_Wits_End" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,defense,as,mr" />
+		<stats>
+			<stat type="as" value="40" />
+			<stat type="mr" value="30" />
+		</stats>
+		<tooltip value="${UP}Your ${BA}s deal ${dmg} bonus ${MD}.\n${UP}Your ${BA}s increase your ${MR} by ${mr} for ${len}${S} (stacks up to ${cap} times)." />
+		<tooltipstats dmg="42" mr="5" len="5" cap="4" />
+		<cost value="2150" />
+		<components>
+			<item value="1043" />
+			<item value="1033" />
+		</components>
+	</item>
+
+	<item id="3154" name="Wriggle's Lantern">
+		<image value="3154_WriggleLantern" />
+		<mode value="classic" />
+		<sorting value="attack,defense,ad,ls,ar" />
+		<stats>
+			<stat type="ad" value="23" />
+			<stat type="ar" value="30" />
+			<stat type="ls" value="12" />
+		</stats>
+		<tooltip value="${UP}Your ${BA}s against minions and monsters have a ${chance}% chance to deal ${dmg} bonus ${MD}.\n${UA}Places an invisible Sight Ward that reveals the surrounding area for ${len}${MINS}.\n	${len}${MCD}" />
+		<tooltipstats chance="20" dmg="425" len="3" />
+		<cost value="1600" />
+		<components>
+			<item value="3106" />
+			<item value="1053" />
+		</components>
+	</item>
+
+	<item id="3142" name="Youmuu's Ghostblade">
+		<image value="3142_Youmus_Spectral_Blade" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,magic,movement,ad,as,crit,cd" />
+		<stats>
+			<stat type="ad" value="30" />
+			<stat type="crit" value="15" />
+		</stats>
+		<tooltip value="${UP}+${cdreduc} ${CD}\n${UP}+${apen} ${APEN}\n${UA}You gain +${mv}% ${MV} and +${as}% ${AS} for ${len}${S}.\n	Melee ${BA}s increases the duration by ${gain}${S} up to a maximum duration of ${cap}${S}.\n	${cd}${SCD}" />
+		<tooltipstats cdreduc="15" apen="20" mv="20" as="50" len="4" gain="2" cap="8" cd="60" />
+		<cost value="2687" />
+		<components>
+			<item value="3093" />
+			<item value="3134" />
+		</components>
+	</item>
+
+	<item id="3086" name="Zeal">
+		<image value="3058_Sheen_and_Phage" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,movement,as,crit" />
+		<stats>
+			<stat type="as" value="20" />
+			<stat type="crit" value="10" />
+			<stat type="mv" value="8" />
+		</stats>
+		<tooltip value="" />
+		<tooltipstats />
+		<cost value="1195" />
+		<components>
+			<item value="1051" />
+			<item value="1042" />
+		</components>
+	</item>
+	
+	<item id="3050" name="Zeke's Herald">
+		<image value="3050_Rallying_Banner" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="attack,magic,defense,h,as,ls,cd" />
+		<stats>
+			<stat type="h" value="250" />
+		</stats>
+		<tooltip value="${UP}+${cd}% ${CD}\n${UR}Grants nearby allied ${CH}s ${ls}% ${LS} and ${as}% ${AS}." />
+		<tooltipstats cd="15" ls="12" as="20" />
+		<cost value="2145" />
+		<components>
+			<item value="3067" />
+			<item value="1042" />
+			<item value="1053" />
+		</components>
+	</item>
+
+	<item id="3157" name="Zhonya's Hourglass">
+		<image value="3157_Zhonyas_Hourglass" />
+		<mode value="classic,dominion,allmid" />
+		<sorting value="magic,defense,ap,ar" />
+		<stats>
+			<stat type="ap" value="100" />
+			<stat type="ar" value="50" />
+		</stats>
+		<tooltip value="${UA}Places your ${CH} into Stasis for ${len}${S}, rendering you invulnerable and untargetable but unable to take any action.\n	${cd}${SCD}" />
+		<tooltipstats len="2" cd="90" />
+		<cost value="3300" />
+		<components>
+			<item value="1058" />
+			<item value="1031" />
+		</components>
+	</item>
+</items>
