@@ -1,0 +1,1505 @@
+
+spells.xml
+Bob Bilbao (bilbao@gmx.us)
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<champions version="17">
+	<champion key="Ahri">
+		<spell name="Orb of Deception" key="Ahri_OrbofDeception">
+			
+		</spell>
+		<spell name="Fox Fire" key="Ahri_FoxFire">
+			
+		</spell>
+		<spell name="Charm" key="Ahri_Charm">
+			
+		</spell>
+		<spell name="Spirit Rush" key="Ahri_SpiritRush">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Akali" name="Akali">
+		<spell name="Mark of the Assassin" key="AkaliMota">
+			
+		</spell>
+		<spell name="Twilight Shroud" key="AkaliTwilightShroud">
+			
+		</spell>
+		<spell name="Crecent Slash" key="AkaliCrescentSlash">
+			
+		</spell>
+		<spell name="Shadow Dance" key="AkaliShadowDance">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Alistar">
+		<spell name="Pulverize" key="Minotaur_Pulverize">
+			
+		</spell>
+		<spell name="Headbutt" key="Minotaur_Headbutt">
+			
+		</spell>
+		<spell name="Triumphant Roar" key="Minotaur_TriumphantRoar">
+			
+		</spell>
+		<spell name="Unbreakable Will" key="Minotaur_FerociousHowl">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Amumu">
+		<spell name="Bandage Toss" key="SadMummy_BandageFlinger">
+			
+		</spell>
+		<spell name="Despair" key="SadMummy_AuraOfDespair">
+			
+		</spell>
+		<spell name="Tantrum" key="SadMummy_Tantrum">
+			
+		</spell>
+		<spell name="Curse of the Sad Mummy" key="SadMummy_CorpseExplosion">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Anivia">
+		<spell name="Flash Frost" key="Cryophoenix_FrigidOrb">
+			
+		</spell>
+		<spell name="Crystallize" key="Cryophoenix_Crystallize">
+			
+		</spell>
+		<spell name="Frostbite" key="Cryophoenix_DeepFreeze">
+			
+		</spell>
+		<spell name="Glacial Storm" key="Cryophoenix_GlacialStorm">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Annie">
+		<spell name="Disintegrate" key="Annie_Disintegrate">
+			
+		</spell>
+		<spell name="Incinerate" key="Annie_Incinerate">
+			
+		</spell>
+		<spell name="Molten Shield" key="Annie_GhastlyShield">
+			
+		</spell>
+		<spell name="Summon: Tibbers" key="Annie_GuardianIncinerate">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Ashe">
+		<spell name="Frost Shot" key="Bowmaster_IceArrow">
+			
+		</spell>
+		<spell name="Volley" key="Bowmaster_Volley">
+			
+		</spell>
+		<spell name="Hawkshot" key="Bowmaster_Hawkshot">
+			
+		</spell>
+		<spell name="Enchanted Crystal Arrow" key="Bowmaster_EnchantedArrow">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Blitzcrank">
+		<spell name="Rocket Grab" key="Blitzcrank_RocketGrab">
+			
+		</spell>
+		<spell name="Overdrive" key="Blitzcrank_Overdrive">
+			
+		</spell>
+		<spell name="Power Fist" key="Blitzcrank_PowerFist">
+			
+		</spell>
+		<spell name="Static Field" key="Blitzcrank_StaticField">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Brand">
+		<spell name="Sear" key="BrandSear">
+			
+		</spell>
+		<spell name="Pillar of Flame" key="BrandPillarOfFlame">
+			
+		</spell>
+		<spell name="Conflagration" key="BrandConflagration">
+			
+		</spell>
+		<spell name="Pyroclasm" key="BrandPyroclasm">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Caitlyn">
+		<spell name="Piltover Peacemaker" key="Caitlyn_PiltoverPeacemaker">
+			
+		</spell>
+		<spell name="Yordle Snap Trap" key="Caitlyn_YordleSnapTrap">
+			
+		</spell>
+		<spell name="90 Caliber Net" key="Caitlyn_90CaliberNet">
+			
+		</spell>
+		<spell name="Ace in the Hole" key="Caitlyn_AceintheHole">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Cassiopeia">
+		<spell name="Noxious Blast" key="Cassiopeia_NoxiousBlast">
+			
+		</spell>
+		<spell name="Miasma" key="Cassiopeia_Miasma">
+			
+		</spell>
+		<spell name="Twin Fang" key="Cassiopeia_TwinFang">
+			
+		</spell>
+		<spell name="Petrifying Gaze" key="Cassiopeia_PetrifyingGaze">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Chogath">
+		<spell name="Rupture" key="GreenTerror_SpikeSlam">
+			
+		</spell>
+		<spell name="Feral Scream" key="GreenTerror_FeralScream">
+			
+		</spell>
+		<spell name="Vorpal Spikes" key="GreenTerror_ChitinousExoplates">
+			
+		</spell>
+		<spell name="Feast" key="GreenTerror_Feast">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Corki">
+		<spell name="Phosphorus Bomb" key="Corki_PhosphorusBomb">
+			
+		</spell>
+		<spell name="Valkyrie" key="Corki_Valkyrie">
+			
+		</spell>
+		<spell name="Gatling Gun" key="Corki_GatlingGun">
+			
+		</spell>
+		<spell name="Missile Barrage" key="Corki_MissileBarrage">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Darius">
+		<spell name="Decimate" key="Darius_Icon_Decimate">
+			
+		</spell>
+		<spell name="Crippling Strike" key="Darius_Icon_Hamstring">
+			
+		</spell>
+		<spell name="Apprehend" key="Darius_Icon_Axe_Grab">
+			
+		</spell>
+		<spell name="Noxian Guillotine" key="Darius_Icon_Sudden_Death">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Draven">
+
+		<spell name="Spinning Axe" key="Draven_SpinningAxe">
+			
+		</spell>
+		<spell name="Blood Rush" key="Draven_Bloodrage">
+			
+		</spell>
+		<spell name="Stand Aside" key="Draven_TwinAxe">
+			
+		</spell>
+		<spell name="Whirling Death" key="Draven_WhirlingDeath">
+			
+		</spell>
+
+	</champion>
+	
+	<champion key="DrMundo">
+		<spell name="Infected Cleaver" key="DrMundo_InfectedCleaver">
+			
+		</spell>
+		<spell name="Burning Agony" key="DrMundo_BurningAgony">
+			
+		</spell>
+		<spell name="Masochism" key="DrMundo_Masochism">
+			
+		</spell>
+		<spell name="Sadism" key="DrMundo_Sadism">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Evelynn">
+		<spell name="Hate Spike" key="Evelynn_OnlyHellToPay">
+			
+		</spell>
+		<spell name="Shadow Walk" key="Evelynn_ReadyToBetray">
+			
+		</spell>
+		<spell name="Ravage" key="Evelynn_Ravage">
+			
+		</spell>
+		<spell name="Malice and Spite" key="Evelynn_Drink">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Ezreal">
+		<spell name="Mystic Shot" key="Ezreal_MysticShot">
+			
+		</spell>
+		<spell name="Essence Flux" key="Ezreal_EssenceFlux">
+			
+		</spell>
+		<spell name="Arcane Shift" key="Ezreal_ArcaneShift">
+			
+		</spell>
+		<spell name="Trueshot Barrage" key="Ezreal_TrueshotBarrage">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Fiddlesticks">
+		<spell name="Terrify" key="Fiddlesticks_Terrify">
+			
+		</spell>
+		<spell name="Drain" key="Fiddlesticks_ConjureScarecrow">
+			
+		</spell>
+		<spell name="Dark Wind" key="Fiddlesticks_DarkWind">
+			
+		</spell>
+		<spell name="Crowstorm" key="Fiddlesticks_Crowstorm">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Fiora">
+
+		<spell name="Lunge" key="Fiora_Lunge">
+			
+		</spell>
+		<spell name="Riposte" key="Riora_Parry">
+			
+		</spell>
+		<spell name="Burst of Speed" key="Fiora_BurstofSpeed">
+			
+		</spell>
+		<spell name="Blade Waltz" key="Fiora_DanceofDeath">
+			
+		</spell>
+
+	</champion>
+	
+	<champion key="Fizz">
+		<spell name="Urchin Strike" key="FizzPiercingStrike">
+			
+		</spell>
+		<spell name="Seastone Trident" key="FizzSeastonePassive">
+			
+		</spell>
+		<spell name="Playful / Trickster" key="FizzJump">
+			
+		</spell>
+		<spell name="Chum the Waters" key="FizzMarinerDoom">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Galio">
+		<spell name="Resolute Smite" key="Galio_ResoluteSmite">
+			
+		</spell>
+		<spell name="Bulwark" key="Galio_Bulwark">
+			
+		</spell>
+		<spell name="Righteous Gust" key="Galio_RighteousGust">
+			
+		</spell>
+		<spell name="Idol of Durand" key="Galio_IdolOfDurand">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Gangplank">
+		<spell name="Parrrley" key="Pirate_Parley">
+			
+		</spell>
+		<spell name="Remove Scurvy" key="Pirate_RemoveScurvy">
+			
+		</spell>
+		<spell name="Raise Morale" key="Pirate_RaiseMorale">
+			
+		</spell>
+		<spell name="Cannon Barrage" key="Pirate_CannonBarrage">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Garen">
+		<spell name="Decisive Strike" key="Garen_DecisiveStrike">
+			
+		</spell>
+		<spell name="Courage" key="Garen_CommandingPresence">
+			
+		</spell>
+		<spell name="Judgement" key="Garen_KeepingthePeace">
+			
+		</spell>
+		<spell name="Demacian Justice" key="Garen_Justice">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Gragas">
+		<spell name="Barrel Roll" key="GragasBarrelRoll">
+			
+		</spell>
+		<spell name="Drunken Rage" key="GragasDrunkenRage">
+			
+		</spell>
+		<spell name="Body Slam" key="GragasBodySlam">
+			
+		</spell>
+		<spell name="Explosive Cask" key="GragasExplosiveCask">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Graves">
+		<spell name="Buckshot" key="GravesBuckshot">
+			
+		</spell>
+		<spell name="Smoke Screen" key="GravesSmokeGrenade">
+			
+		</spell>
+		<spell name="Quickdraw" key="GravesQuickDraw">
+			
+		</spell>
+		<spell name="Collateral Damage" key="GravesHighNoon">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Hecarim">
+
+		<spell name="Rampage" key="Hecarim_Rampage">
+			
+		</spell>
+		<spell name="Spirit of Dread" key="Hecarim_SpiritofDread">
+			
+		</spell>
+		<spell name="Devastating Charge" key="Hecarim_DevastingCharge">
+			
+		</spell>
+		<spell name="Onslaught of Shadows" key="Hecarim_OnslaughtofShadows">
+			
+		</spell>
+
+	</champion>
+	
+	<champion key="Heimerdinger">
+		<spell name="H-28G Evolution Turret" key="Heimerdinger_H28GEvolutionTurret">
+			
+		</spell>
+		<spell name="Hextech Micro-Rockets" key="Heimerdinger_HextechMicroRockets">
+			
+		</spell>
+		<spell name="CH-1 Concussion Grenade" key="Heimerdinger_CH1ConcussionGrenade">
+			
+		</spell>
+		<spell name="UPGRADE!!!" key="Heimerdinger_UPGRADE">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Irelia">
+		<spell name="Bladesurge" key="Irelia_Bladesurge">
+			
+		</spell>
+		<spell name="Hiten Style" key="Irelia_HitenStyle">
+			
+		</spell>
+		<spell name="Equilibrium Strike" key="Irelia_EquilibriumStrike">
+			
+		</spell>
+		<spell name="Transcendent Blades" key="Irelia_TranscendentBlades">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Janna">
+		<spell name="Howling Gale" key="Janna_HowlingGale">
+			
+		</spell>
+		<spell name="Zephyr" key="Janna_Zephyr">
+			
+		</spell>
+		<spell name="Eye Of The Storm" key="Janna_EyeOfTheStorm">
+			
+		</spell>
+		<spell name="Monsoon" key="Janna_ReapTheWhirlwind">
+			
+		</spell>
+	</champion>
+	
+	<champion key="JarvanIV">
+		<spell name="Dragon Strike" key="JarvanIV_DragonStrike">
+			
+		</spell>
+		<spell name="Golden Aegis" key="JarvanIV_GoldenAegis">
+			
+		</spell>
+		<spell name="Demacian Standard" key="JarvanIV_DemacianStandard">
+			
+		</spell>
+		<spell name="Cataclysm" key="JarvanIV_Cataclysm">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Jax">
+		<spell name="Leap Strike" key="Armsmaster_RelentlessAssault">
+			
+		</spell>
+		<spell name="Empower" key="Armsmaster_Empower">
+			
+		</spell>
+		<spell name="Counter Strike" key="Armsmaster_Disarm">
+			
+		</spell>
+		<spell name="Grandmaster's Might" key="Armsmaster_CoupDeGrace">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Karma">
+		<spell name="Heavenly Wave" key="KarmaHeavenlyWave">
+			
+		</spell>
+		<spell name="Spirit Bond" key="KarmaSpiritBond">
+			
+		</spell>
+		<spell name="Soul Shield" key="KarmaSoulShield">
+			
+		</spell>
+		<spell name="Mantra" key="KarmaMantra">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Karthus">
+		<spell name="Lay Waste" key="Lich_LayWaste">
+			
+		</spell>
+		<spell name="Wall of Pain" key="Lich_WallOfPain">
+			
+		</spell>
+		<spell name="Defile" key="Lich_Defile">
+			
+		</spell>
+		<spell name="Requiem" key="Lich_DeathRay">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Kassadin">
+		<spell name="Null Sphere" key="Averdrian_AstralBean">
+			
+		</spell>
+		<spell name="Nether Blade" key="Voidwalker_Nullblade">
+			
+		</spell>
+		<spell name="Force Pulse" key="Kassadin_ForcePulse">
+			
+		</spell>
+		<spell name="Riftwalk" key="Voidwalker_Riftwalk">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Katarina">
+		<spell name="Bouncing Blade" key="Katarina_BouncingBlade">
+			
+		</spell>
+		<spell name="Killer Instincts" key="Katarina_KillerInstincts">
+			
+		</spell>
+		<spell name="Shunpo" key="Katarina_Shunpo">
+			
+		</spell>
+		<spell name="Death Lotus" key="Katarina_DeathLotus">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Kayle">
+		<spell name="Reckoning" key="Judicator_Reckoning">
+			
+		</spell>
+		<spell name="Divine Blessing" key="Judicator_AngelicEmbrace">
+			
+		</spell>
+		<spell name="Righteous Fury" key="Judicator_RighteousFury">
+			
+		</spell>
+		<spell name="Intervention" key="Judicator_EyeforanEye">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Kennen">
+		<spell name="Thundering Shuriken" key="Kennen_ThunderingShuriken">
+			
+		</spell>
+		<spell name="Electrical Surge" key="Kennen_ElectricalSurge">
+			
+		</spell>
+		<spell name="Lightning Rush" key="Kennen_LightningRush">
+			
+		</spell>
+		<spell name="Slicing Maelstrom" key="Kennen_SlicingMaelstrom">
+			
+		</spell>
+	</champion>
+	
+	<champion key="KogMaw">
+		<spell name="Caustic Spittle" key="KogMaw_CausticSpittle">
+			
+		</spell>
+		<spell name="Bio-Arcane Barrage" key="KogMaw_BioArcaneBarrage">
+			
+		</spell>
+		<spell name="Void Ooze" key="KogMaw_VoidOoze">
+			
+		</spell>
+		<spell name="Living Artillery" key="KogMaw_LivingArtillery">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Leblanc">
+		<spell name="Sigil of Silence" key="LeblancMarkOfSilence">
+			
+		</spell>
+		<spell name="Distortion" key="LeblancDisplacement">
+			
+		</spell>
+		<spell name="Ethereal Chains" key="LeblancConjureChains">
+			
+		</spell>
+		<spell name="Mimic" key="LeblancMimic">
+			
+		</spell>
+	</champion>
+	
+	<champion key="LeeSin">
+		<spell name="Sonic Wave / Resonating Strike" key="BlindMonKQOne">
+			
+		</spell>
+		<spell name="Safeguard / Iron Will" key="BlindMonkWOne">
+			
+		</spell>
+		<spell name="Tempest / Cripple" key="BlindMonkEOne">
+			
+		</spell>
+		<spell name="Dragon's Rage" key="BlindMonkR">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Leona">
+		<spell name="Shield of Daybreak" key="LeonaShieldOfDaybreak">
+			
+		</spell>
+		<spell name="Eclipse" key="LeonaSolarBarrier">
+			
+		</spell>
+		<spell name="Zenith Blade" key="LeonaZenithBlade">
+			
+		</spell>
+		<spell name="Solar Flare" key="LeonaSolarFlare">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Lulu">
+
+		<spell name="Glitterlance" key="Lulu_Glitterbolt">
+			
+		</spell>
+		<spell name="Whimsy" key="Lulu_Whimsy">
+			
+		</spell>
+		<spell name="Help, Pix!" key="Lulu_CommandPix">
+			
+		</spell>
+		<spell name="Wild Growth" key="Lulu_GiantGrowth">
+			
+		</spell>
+
+	</champion>
+	
+	<champion key="Lux">
+		<spell name="Light Binding" key="LuxCrashingBlitz2">
+			
+		</spell>
+		<spell name="Prismatic Barrier" key="LuxPrismaWrap">
+			
+		</spell>
+		<spell name="Lucent Singularity" key="LuxLightStrikeKugel">
+			
+		</spell>
+		<spell name="Finales Funkeln" key="LuxFinaleFunkeln">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Malphite">
+		<spell name="Seismic Shard" key="Malphite_SeismicShard">
+			
+		</spell>
+		<spell name="Brutal Strikes" key="Malphite_BrutalStrikes">
+			
+		</spell>
+		<spell name="Ground Slam" key="Malphite_GroundSlam">
+			
+		</spell>
+		<spell name="Unstoppable Force" key="Malphite_UnstoppableForce">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Malzahar">
+		<spell name="Call of the Void" key="AlZahar_CalloftheVoid">
+			
+		</spell>
+		<spell name="Null Zone" key="AlZahar_NullZone">
+			
+		</spell>
+		<spell name="Malefic Visions" key="AlZahar_MaleficVisions">
+			
+		</spell>
+		<spell name="Nether Grasp" key="AlZahar_NetherGrasp">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Maokai">
+		<spell name="Arcane Smash" key="Maokai_ArcaneSmash">
+			
+		</spell>
+		<spell name="Twisted Advance" key="Maokai_TwistedAdvance">
+			
+		</spell>
+		<spell name="Sapling Toss" key="Maokai_SaplingToss">
+			
+		</spell>
+		<spell name="Vengeful Maelstrom" key="Maokai_VengefulMaelstrom">
+			
+		</spell>
+	</champion>
+	
+	<champion key="MasterYi">
+		<spell name="Alpha Strike" key="MasterYi_LeapStrike">
+			
+		</spell>
+		<spell name="Meditate" key="MasterYi_InnerFocus">
+			
+		</spell>
+		<spell name="Wuju Style" key="MasterYi_SunderingStrikes">
+			
+		</spell>
+		<spell name="Highlander" key="MasterYi_InnerFocus2">
+			
+		</spell>
+	</champion>
+	
+	<champion key="MissFortune">
+		<spell name="Double Up" key="MissFortune_DoubleUp">
+			
+		</spell>
+		<spell name="Impure Shots" key="MissFortune_ImpureShots">
+			
+		</spell>
+		<spell name="Make It Rain" key="MissFortune_MakeItRain">
+			
+		</spell>
+		<spell name="Bullet Time" key="MissFortune_BulletTime">
+			
+		</spell>
+	</champion>
+	
+	<champion key="MonkeyKing">
+		<spell name="Crushing Blow" key="MonkeyKingCrushingBlow">
+			
+		</spell>
+		<spell name="Decoy" key="MonkeyKingDecoy">
+			
+		</spell>
+		<spell name="Nimbus Strike" key="MonkeyKingNimbusStrike">
+			
+		</spell>
+		<spell name="Cyclone" key="MonkeyKingCyclone">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Mordekaiser">
+		<spell name="Mace of Spades" key="MordekaiserMaceOfSpades">
+			
+		</spell>
+		<spell name="Creeping Death" key="MordekaiserCreepingDeath">
+			
+		</spell>
+		<spell name="Siphon of Destruction" key="MordekaiserSiphonOfDestruction">
+			
+		</spell>
+		<spell name="Children of the Grave" key="Mordekaiser_COTG">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Morgana">
+		<spell name="Dark Binding" key="FallenAngel_DarkBinding">
+			
+		</spell>
+		<spell name="Tormented Soil" key="FallenAngel_TormentedSoil">
+			
+		</spell>
+		<spell name="Black Shield" key="FallenAngel_BlackShield">
+			
+		</spell>
+		<spell name="Soul Shackles" key="FallenAngel_Purgatory">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Nasus">
+		<spell name="Siphoning Strike" key="Nasus_SiphoningStrike">
+			
+		</spell>
+		<spell name="Wither" key="Nasus_Wither">
+			
+		</spell>
+		<spell name="Spirit Fire" key="Nasus_SpiritFire">
+			
+		</spell>
+		<spell name="Fury of the Sands" key="Nasus_AvatarOfDeath">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Nautilus">
+
+		<spell name="Dredge Line" key="Nautilus_AnchorChain">
+			
+		</spell>
+		<spell name="Titan's Wrath" key="Nautilus_Wrath">
+			
+		</spell>
+		<spell name="Riptide" key="Nautilus_RippleEffect">
+			
+		</spell>
+		<spell name="Depth Charge" key="Nautilus_GrandLine">
+			
+		</spell>
+
+	</champion>
+	
+	<champion key="Nidalee">
+		<spell name="Javelin Toss / Takedown" key="Nidalee_JavelinThrow">
+			
+		</spell>
+		<spell name="Bushwhack / Pounce" key="Nidalee_Bushwhack">
+			
+		</spell>
+		<spell name="Primal Surge / Swipe" key="Nidalee_PrimalSurge">
+			
+		</spell>
+		<spell name="Aspect of the Cougar" key="Nidalee_AspectOfTheCougar">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Nocturne">
+		<spell name="Duskbringer" key="Nocturne_Duskbringer">
+			
+		</spell>
+		<spell name="Shroud of Darkness" key="Nocturne_ShroudOfDarkness">
+			
+		</spell>
+		<spell name="Unspeakable Horror" key="Nocturne_UnspeakableHorror">
+			
+		</spell>
+		<spell name="Paranoia" key="Nocturne_Paranoia">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Nunu">
+		<spell name="Consume" key="Yeti_Consume">
+			
+		</spell>
+		<spell name="Blood Boil" key="Yeti_YetiSmash">
+			
+		</spell>
+		<spell name="Ice Blast" key="Yeti_IceBlast">
+			
+		</spell>
+		<spell name="Absolute Zero" key="Yeti_Shatter">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Olaf">
+		<spell name="Undertow" key="OlafAxeThrow">
+			
+		</spell>
+		<spell name="Vicious Strikes" key="OlafViciousStrikes">
+			
+		</spell>
+		<spell name="Reckless Swing" key="OlafRecklessSwing">
+			
+		</spell>
+		<spell name="Ragnarok" key="OlafRagnarok">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Orianna">
+		<spell name="Command: Attack" key="OriannaCommandAttack">
+			
+		</spell>
+		<spell name="Command: Dissonance" key="OriannaCommandDissonance">
+			
+		</spell>
+		<spell name="Command: Protect" key="OriannaCommandRedact">
+			
+		</spell>
+		<spell name="Command: Shockwave" key="OriannaCommandDetonate">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Pantheon">
+		<spell name="Spear Shot" key="Pantheon_SpearShot">
+			
+		</spell>
+		<spell name="Aegis of Zeonia" key="Pantheon_LeapBash">
+			
+		</spell>
+		<spell name="Heartseeker Strike" key="Pantheon_HSS">
+			
+		</spell>
+		<spell name="Grand Skyfall" key="Pantheon_GrandSkyFall">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Poppy">
+		<spell name="Devastating Blow" key="PoppyDevastatingBlow">
+			
+		</spell>
+		<spell name="Paragon of Demacia" key="PoppyDefenseOfDemacia">
+			
+		</spell>
+		<spell name="Heroic Charge" key="Poppy_HeroicCharge">
+			
+		</spell>
+		<spell name="Diplomatic Immunity" key="Poppy_DiplomaticImmunity">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Rammus">
+		<spell name="Powerball" key="Armordillo_Powerball">
+			
+		</spell>
+		<spell name="Defensive Ball Curl" key="Armordillo_ShellBash">
+			
+		</spell>
+		<spell name="Puncturing Taunt" key="Armordillo_ScaledPlating">
+			
+		</spell>
+		<spell name="Tremors" key="Armordillo_RecklessCharge">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Renekton">
+		<spell name="Cull the Meek" key="Renekton_Cleave">
+			
+		</spell>
+		<spell name="Ruthless Predator" key="Renekton_Execute">
+			
+		</spell>
+		<spell name="Slice and Dice" key="Renekton_SliceAndDice">
+			
+		</spell>
+		<spell name="Dominus" key="Renekton_Dominus">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Riven">
+		<spell name="Broken Wings" key="RivenBrokenWings">
+			
+		</spell>
+		<spell name="Ki Burst" key="RivenKiShout">
+			
+		</spell>
+		<spell name="Valor" key="RivenBladeoftheExile">
+			
+		</spell>
+		<spell name="Runic Blade" key="RivenRunicBlades">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Rumble">
+		<spell name="Flamespitter" key="Rumble_Flamespitter">
+			
+		</spell>
+		<spell name="Scrap Shield" key="Rumble_Scrap Shield">
+			
+		</spell>
+		<spell name="Electro Harpoon" key="Rumble_Electro Harpoon">
+			
+		</spell>
+		<spell name="The Equalizer" key="Rumble_R">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Ryze">
+		<spell name="Overload" key="Ryze_Overload">
+			
+		</spell>
+		<spell name="Rune Prison" key="Ryze_PowerOverwhelming">
+			
+		</spell>
+		<spell name="Spell Flux" key="Ryze_LightningFlux">
+			
+		</spell>
+		<spell name="Desperate Power" key="Ryze_DesperatePower">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Sejuani">
+		<spell name="Arctic Assault" key="Sejuani_ArcticAssault">
+			
+		</spell>
+		<spell name="Northern Winds" key="Sejuani_NorthernWinds">
+			
+		</spell>
+		<spell name="Permafrost" key="Sejuani_Permafrost">
+			
+		</spell>
+		<spell name="Glacial Prison" key="Sejuani_GlacialPrison">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Shaco">
+		<spell name="Deceive" key="Jester_Deceive">
+			
+		</spell>
+		<spell name="Jack in the Box" key="Jester_DeathWard">
+			
+		</spell>
+		<spell name="Two-Shiv Poison" key="Jester_TwoShivPoison">
+			
+		</spell>
+		<spell name="Hallucinate" key="Jester_Hallucinate">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Shen">
+		<spell name="Vorpal Blade" key="Shen_VorpalBlade">
+			
+		</spell>
+		<spell name="Feint" key="Shen_Feint">
+			
+		</spell>
+		<spell name="Shadow Dash" key="Shen_ShadowDash">
+			
+		</spell>
+		<spell name="Stand United" key="Shen_StandUnited">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Shyvana">
+		<spell name="Twin Bite" key="ShyvanaTwinBite">
+			
+		</spell>
+		<spell name="Burnout" key="ShyvanaScorchedEarth">
+			
+		</spell>
+		<spell name="Flame Breath" key="ShyvanaFlameBreath">
+			
+		</spell>
+		<spell name="Dragon's Descent" key="ShyvanaDragonsDescent">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Singed">
+		<spell name="Poison Trail" key="ChemicalMan_AcidSpray">
+			
+		</spell>
+		<spell name="Mega Adhesive" key="ChemMan_MegaAdhesive">
+			
+		</spell>
+		<spell name="Fling" key="ChemicalMan_fling">
+			
+		</spell>
+		<spell name="Insanity Potion" key="ChemicalMan_ChemicalRage">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Sion">
+		<spell name="Cryptic Gaze" key="Sion_CrypticGaze">
+			
+		</spell>
+		<spell name="Death's Caress" key="Sion_DeathsCaress">
+			
+		</spell>
+		<spell name="Enrage" key="Sion_SpiritRage">
+			
+		</spell>
+		<spell name="Cannibalism" key="Sion_Cannibalism">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Sivir">
+		<spell name="Boomerang Blade" key="Sivir_SpiralBlade">
+			
+		</spell>
+		<spell name="Ricochet" key="Sivir_Ricochet">
+			
+		</spell>
+		<spell name="Spell Shield" key="Sivir_SpellBlock">
+			
+		</spell>
+		<spell name="On the Hunt" key="Sivir_Deadeye">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Skarner">
+		<spell name="Crystal Slash" key="SkarnerVirulentSlash">
+			
+		</spell>
+		<spell name="Crstalline Exoskeleton" key="SkarnerExoskeleton">
+			
+		</spell>
+		<spell name="Fracture" key="SkarnerFracture">
+			
+		</spell>
+		<spell name="Impale" key="SkarnerImpale">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Sona">
+		<spell name="Hymn of Valor" key="Sona_HymnofValor">
+			
+		</spell>
+		<spell name="Aria of Persverance" key="Sona_AriaofPerseverance">
+			
+		</spell>
+		<spell name="Song of Celerity" key="Sona_SongofDiscord">
+			
+		</spell>
+		<spell name="Crescendo" key="Sona_Crescendo">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Soraka">
+		<spell name="Starcall" key="Soraka_Starcall">
+			
+		</spell>
+		<spell name="Astral Blessing" key="Soraka_Bless">
+			
+		</spell>
+		<spell name="Infuse" key="Soraka_Wish">
+			
+		</spell>
+		<spell name="Wish" key="Soraka_Purify">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Swain">
+		<spell name="Decrepify" key="SwainDecrepify">
+			
+		</spell>
+		<spell name="Nevermove" key="SwainNevermove">
+			
+		</spell>
+		<spell name="Torment" key="SwainTorment">
+			
+		</spell>
+		<spell name="Ravenous Flock" key="SwainRavenousFlock">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Talon">
+		<spell name="Noxian Diplomacy" key="TalonNoxianDiplomacy">
+			
+		</spell>
+		<spell name="Rake" key="TalonRake">
+			
+		</spell>
+		<spell name="Cutthroat" key="TalonCutthroat">
+			
+		</spell>
+		<spell name="Shadow Assault" key="TalonShadowAssault">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Taric">
+		<spell name="Imbue" key="GemKnight_Imbue">
+			
+		</spell>
+		<spell name="Shatter" key="GemKnight_Shatter">
+			
+		</spell>
+		<spell name="Dazzle" key="GemKnight_Dazzle">
+			
+		</spell>
+		<spell name="Radiance" key="GemKnight_Radiance">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Teemo">
+		<spell name="Blinding Dart" key="Teemo_TranquilizingShot">
+			
+		</spell>
+		<spell name="Move Quick" key="Teemo_MoveQuick">
+			
+		</spell>
+		<spell name="Toxic Shot" key="Teemo_PoisonedDart">
+			
+		</spell>
+		<spell name="Noxious Trap" key="Bowmaster_ArchersMark">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Tristana">
+		<spell name="Rapid Fire" key="Tristana_HeadShot">
+			
+		</spell>
+		<spell name="Rocket Jump" key="Tristana_RendingShot">
+			
+		</spell>
+		<spell name="Explosive Shot" key="Tristana_ExplosiveShot">
+			
+		</spell>
+		<spell name="Buster Shot" key="Tristana_BusterShot">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Trundle">
+		<spell name="Rabid Bite" key="Trundle_Bite">
+			
+		</spell>
+		<spell name="Contaminate" key="Trundle_Contaminate">
+			
+		</spell>
+		<spell name="Pillar of Filth" key="Trundle_Pillar">
+			
+		</spell>
+		<spell name="Agony" key="Trundle_Agony">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Tryndamere">
+		<spell name="Bloodlust" key="DarkChampion_Bloodlust">
+			
+		</spell>
+		<spell name="Mocking Shout" key="48thSlave_Pacify">
+			
+		</spell>
+		<spell name="Spinning Slash" key="DarkChampion_Slash">
+			
+		</spell>
+		<spell name="Undying Rage" key="DarkChampion_EndlessRage">
+			
+		</spell>
+	</champion>
+	
+	<champion key="TwistedFate">
+		<spell name="Wild Cards" key="Cardmaster_PowerCard">
+			
+		</spell>
+		<spell name="Pick A Card" key="Cardmaster_FatesGambit">
+			
+		</spell>
+		<spell name="Stacked Deck" key="Cardmaster_RapidToss">
+			
+		</spell>
+		<spell name="Destiny" key="Cardmaster_Destiny">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Twitch">
+		<spell name="Ambush" key="Twitch_AlterEgo">
+			
+		</spell>
+		<spell name="Debilitating Poison" key="Twitch_Fade">
+			
+		</spell>
+		<spell name="Expunge" key="Twitch_Expunge">
+			
+		</spell>
+		<spell name="Spray and Pray" key="Twitch_Clone">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Udyr">
+		<spell name="Tiger Stance" key="Udyr_TigerStance">
+			
+		</spell>
+		<spell name="Turtle Stance" key="Udyr_TurtleStance">
+			
+		</spell>
+		<spell name="Bear Stance" key="Udyr_BearStance">
+			
+		</spell>
+		<spell name="Phoenix Stance" key="Udyr_PhoenixStance">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Urgot">
+		<spell name="Acid Hunter" key="UrgotAcidHunter">
+			
+		</spell>
+		<spell name="Terror Capacitor" key="UrgotTerrorCapacitor">
+			
+		</spell>
+		<spell name="Noxian Corrosive Charge" key="UrgotCorrosiveCharge">
+			
+		</spell>
+		<spell name="Hyper-Kinetic Position Reverser" key="UrgotPositionReverser">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Varus">
+
+		<spell name="Piercing Arrow" key="VarrusQ">
+			
+		</spell>
+		<spell name="Blighted Quiver" key="VarrusW">
+			
+		</spell>
+		<spell name="Hail of Arrows" key="VarrusE">
+			
+		</spell>
+		<spell name="Chain of Corruption" key="VarrusR">
+			
+		</spell>
+
+	</champion>
+	
+	<champion key="Vayne">
+		<spell name="Tumble" key="Vayne_Tumble">
+			
+		</spell>
+		<spell name="Silver Bolts" key="Vayne_SilveredBolts">
+			
+		</spell>
+		<spell name="Condemn" key="Vayne_Condemn">
+			
+		</spell>
+		<spell name="Final Hour" key="Vayne_Inquisition">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Veigar">
+		<spell name="Baleful Strike" key="VeigarBalefulStrike">
+			
+		</spell>
+		<spell name="Dark Matter" key="VeigarDarkMatter">
+			
+		</spell>
+		<spell name="Event Horizon" key="VeigarEventHorizon">
+			
+		</spell>
+		<spell name="Primordial Burst" key="VeigarPrimordialBurst">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Viktor">
+		<spell name="Power Transfer" key="ViktorPowerTransfer">
+			
+		</spell>
+		<spell name="Gravity Field" key="ViktorGravitonField">
+			
+		</spell>
+		<spell name="Death Ray" key="ViktorDeathRay">
+			
+		</spell>
+		<spell name="Chaos Storm" key="ViktorChaosStorm">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Vladimir">
+		<spell name="Transfusion" key="Vladimir_Transfusion">
+			
+		</spell>
+		<spell name="Sanguine Pool" key="Vladimir_SanguinePool">
+			
+		</spell>
+		<spell name="Tides of Blood" key="Vladimir_TidesofBlood">
+			
+		</spell>
+		<spell name="Hemoplague" key="Vladimir_Hemoplague">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Volibear">
+		<spell name="Rolling Thunder" key="VolibearQ">
+			
+		</spell>
+		<spell name="Frenzy" key="VolibearW">
+			
+		</spell>
+		<spell name="Magestic Roar" key="VolibearE">
+			
+		</spell>
+		<spell name="Thunder Claws" key="VolibearR">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Warwick">
+		<spell name="Hungering Strike" key="Wolfman_SeverArmor">
+			
+		</spell>
+		<spell name="Hunters Call" key="Wolfman_FrenziedStrikes">
+			
+		</spell>
+		<spell name="Blood Scent" key="Wolfman_BloodScent">
+			
+		</spell>
+		<spell name="Infinite Duress" key="Wolfman_InfiniteDuress">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Xerath">
+		<spell name="Arcanopulse" key="Xerath_Arcanopulse">
+			
+		</spell>
+		<spell name="Locus of Power" key="Xerath_LocusOfPower">
+			
+		</spell>
+		<spell name="Mage Chains" key="Xerath_MageChains">
+			
+		</spell>
+		<spell name="Arcane Barrage" key="Xerath_ArcaneBarrage">
+			
+		</spell>
+	</champion>
+	
+	<champion key="XinZhao">
+		<spell name="Three Talon Strike" key="XinZhao_ThreeTalon">
+			
+		</spell>
+		<spell name="Battle Cry" key="XinZhao_BattleCry">
+			
+		</spell>
+		<spell name="Audacious Charge" key="XinZhao_Charge">
+			
+		</spell>
+		<spell name="Crescent Sweep" key="XinZhao_CrescentSweep">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Yorick">
+		<spell name="Omen of War" key="YorickOmenOfWar">
+			
+		</spell>
+		<spell name="Omen of Pestilence" key="YorickOmenOfPestilence">
+			
+		</spell>
+		<spell name="Omen of Famine" key="YorickOmenOfFamine">
+			
+		</spell>
+		<spell name="Omen of Death" key="YorickOmenOfDeath">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Ziggs">
+		<spell name="Bouncing Bomb" key="ZiggsQ">
+			
+		</spell>
+		<spell name="Satchel Charge" key="ZiggsW">
+			
+		</spell>
+		<spell name="Hexplosive Minefield" key="ZiggsE">
+			
+		</spell>
+		<spell name="Mega Inferno Bomb" key="ZiggsR">
+			
+		</spell>
+	</champion>
+	
+	<champion key="Zilean">
+		<spell name="Time Bomb" key="Chronokeeper_Chronoblast">
+			
+		</spell>
+		<spell name="Rewind" key="Chronokeeper_Recall">
+			
+		</spell>
+		<spell name="Time Warp" key="Chronokeeper_Haste">
+			
+		</spell>
+		<spell name="Chronoshift" key="Chronokeeper_Timetwister">
+			
+		</spell>
+	</champion>
+</champions>
+
+"spells.xml" wird angezeigt.
