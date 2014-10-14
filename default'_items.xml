@@ -1,0 +1,1809 @@
+
+default_items.xml
+Bob Bilbao (bilbao@gmx.us)
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<recommended_items version="19">
+	<champion key="Ahri">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3027" />
+			<item id="3165" />
+			<item id="3116" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3020" />
+			<item id="3027" />
+			<item id="3165" />
+			<item id="3116" />
+			<item id="3089" />
+		</mode>
+	</champion>
+	<champion key="Akali">
+		<mode value="classic">
+			<item id="1036" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3116" />
+			<item id="3124" />
+			<item id="3078" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3116" />
+			<item id="3124" />
+			<item id="3100" />
+		</mode>
+	</champion>
+	<champion key="Alistar">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3158" />
+			<item id="3057" />
+			<item id="3110" />
+			<item id="3105" />
+			<item id="3069" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3158" />
+			<item id="3057" />
+			<item id="3110" />
+			<item id="3068" />
+			<item id="3109" />
+		</mode>
+	</champion>
+	<champion key="Amumu">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3009" />
+			<item id="3105" />
+			<item id="3068" />
+			<item id="3110" />
+			<item id="3099" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3180" />
+			<item id="3143" />
+			<item id="3068" />
+			<item id="3110" />
+		</mode>
+	</champion>
+	<champion key="Anivia">
+		<mode value="classic">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3028" />
+			<item id="3027" />
+			<item id="3135" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3003" />
+			<item id="3180" />
+			<item id="3089" />
+			<item id="3135" />
+		</mode>
+	</champion>
+	<champion key="Annie">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3027" />
+			<item id="3003" />
+			<item id="3135" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3010" />
+			<item id="3027" />
+			<item id="3135" />
+			<item id="3089" />
+		</mode>
+	</champion>
+	<champion key="Ashe">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3009" />
+			<item id="3035" />
+			<item id="3031" />
+			<item id="3102" />
+			<item id="3046" />
+		</mode>
+		<mode value="dominion">
+			<item id="1053" />
+			<item id="3009" />
+			<item id="3178" />
+			<item id="3181" />
+			<item id="3031" />
+			<item id="3046" />
+		</mode>
+	</champion>
+	<champion key="Blitzcrank">
+		<mode value="classic">
+			<item id="1027" />
+			<item id="3009" />
+			<item id="3004" />
+			<item id="3078" />
+			<item id="3102" />
+			<item id="3110" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3158" />
+			<item id="3180" />
+			<item id="3078" />
+			<item id="3110" />
+			<item id="3068" />
+		</mode>
+	</champion>
+	<champion key="Brand">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3089" />
+			<item id="3116" />
+			<item id="3135" />
+			<item id="3152" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3027" />
+			<item id="3089" />
+			<item id="3116" />
+			<item id="3135" />
+		</mode>
+	</champion>
+	<champion key="Caitlyn">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3006" />
+			<item id="3035" />
+			<item id="3072" />
+			<item id="3031" />
+			<item id="3102" />
+		</mode>
+		<mode value="dominion">
+			<item id="1053" />
+			<item id="3009" />
+			<item id="3178" />
+			<item id="3181" />
+			<item id="3031" />
+			<item id="3046" />
+		</mode>
+	</champion>
+	<champion key="Cassiopeia">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3136" />
+			<item id="3116" />
+			<item id="3027" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3020" />
+			<item id="3136" />
+			<item id="3116" />
+			<item id="3027" />
+			<item id="3089" />
+		</mode>
+	</champion>
+	<champion key="Chogath">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3009" />
+			<item id="3110" />
+			<item id="3027" />
+			<item id="3026" />
+			<item id="3001" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3009" />
+			<item id="3116" />
+			<item id="3027" />
+			<item id="3110" />
+			<item id="3001" />
+		</mode>
+	</champion>
+	<champion key="Corki">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3006" />
+			<item id="3035" />
+			<item id="3031" />
+			<item id="3072" />
+			<item id="3102" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3078" />
+			<item id="3004" />
+			<item id="3071" />
+		</mode>
+	</champion>
+	<champion key="Darius">
+		<mode value="classic">
+			<item id="1007" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3143" />
+			<item id="3105" />
+			<item id="3156" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3111" />
+			<item id="3184" />
+			<item id="3143" />
+			<item id="3142" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Draven">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3006" />
+			<item id="3072" />
+			<item id="3031" />
+			<item id="3046" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3006" />
+			<item id="3181" />
+			<item id="3031" />
+			<item id="3046" />
+			<item id="3071" />
+		</mode>
+	</champion>
+	<champion key="DrMundo">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3065" />
+			<item id="3068" />
+			<item id="3050" />
+			<item id="3109" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3065" />
+			<item id="3068" />
+			<item id="3143" />
+		</mode>
+	</champion>
+	<champion key="Evelynn">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3117" />
+			<item id="3154" />
+			<item id="3078" />
+			<item id="3026" />
+			<item id="3124" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3117" />
+			<item id="3044" />
+			<item id="3078" />
+			<item id="3142" />
+			<item id="3124" />
+		</mode>
+	</champion>
+	<champion key="Ezreal">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3158" />
+			<item id="3004" />
+			<item id="3035" />
+			<item id="3102" />
+			<item id="3078" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3158" />
+			<item id="3185" />
+			<item id="3134" />
+			<item id="3078" />
+			<item id="3035" />
+		</mode>
+	</champion>
+	<champion key="Fiddlesticks">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3027" />
+			<item id="3157" />
+			<item id="3001" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3180" />
+			<item id="3027" />
+			<item id="3001" />
+			<item id="3089" />
+		</mode>
+	</champion>
+	<champion key="Fiora">
+		<mode value="classic">
+			<item id="1029" />
+			<item id="3111" />
+			<item id="3154" />
+			<item id="3072" />
+			<item id="3035" />
+			<item id="3071" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3111" />
+			<item id="3144" />
+			<item id="3181" />
+			<item id="3035" />
+			<item id="3184" />
+		</mode>
+	</champion>
+	<champion key="Fizz">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3027" />
+			<item id="3100" />
+			<item id="3089" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3158" />
+			<item id="3165" />
+			<item id="3100" />
+			<item id="3089" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Galio">
+		<mode value="classic">
+			<item id="1005" />
+			<item id="3111" />
+			<item id="3028" />
+			<item id="3105" />
+			<item id="3102" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1005" />
+			<item id="3111" />
+			<item id="3028" />
+			<item id="3065" />
+			<item id="3109" />
+			<item id="3143" />
+		</mode>
+	</champion>
+	<champion key="Gangplank">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3158" />
+			<item id="3004" />
+			<item id="3035" />
+			<item id="3031" />
+			<item id="3072" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3006" />
+			<item id="3044" />
+			<item id="3031" />
+			<item id="3181" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Garen">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3009" />
+			<item id="3068" />
+			<item id="3035" />
+			<item id="3142" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3068" />
+			<item id="3109" />
+			<item id="3143" />
+		</mode>
+	</champion>
+	<champion key="Gragas">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3047" />
+			<item id="3105" />
+			<item id="3143" />
+			<item id="3102" />
+			<item id="3068" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3020" />
+			<item id="3180" />
+			<item id="3027" />
+			<item id="3068" />
+			<item id="3116" />
+		</mode>
+	</champion>
+	<champion key="Graves">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3006" />
+			<item id="3086" />
+			<item id="3078" />
+			<item id="3031" />
+			<item id="3035" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3006" />
+			<item id="1043" />
+			<item id="3185" />
+			<item id="3071" />
+			<item id="3035" />
+		</mode>
+	</champion>
+	<champion key="Hecarim">
+		<mode value="classic">
+			<item id="1029" />
+			<item id="3111" />
+			<item id="3057" />
+			<item id="3155" />
+			<item id="3068" />
+			<item id="3078" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3111" />
+			<item id="3142" />
+			<item id="3044" />
+			<item id="3078" />
+			<item id="3068" />
+		</mode>
+	</champion>
+	<champion key="Heimerdinger">
+		<mode value="classic">
+			<item id="1005" />
+			<item id="3020" />
+			<item id="3028" />
+			<item id="3089" />
+			<item id="3116" />
+			<item id="3135" />
+		</mode>
+		<mode value="dominion">
+			<item id="1005" />
+			<item id="3020" />
+			<item id="3028" />
+			<item id="3089" />
+			<item id="3116" />
+			<item id="3135" />
+		</mode>
+	</champion>
+	<champion key="Irelia">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3142" />
+			<item id="3078" />
+			<item id="3102" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3065" />
+			<item id="3078" />
+			<item id="3142" />
+			<item id="3143" />
+		</mode>
+	</champion>
+	<champion key="Janna">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3158" />
+			<item id="3028" />
+			<item id="3027" />
+			<item id="3105" />
+			<item id="3099" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3158" />
+			<item id="3070" />
+			<item id="3116" />
+			<item id="3099" />
+			<item id="3003" />
+		</mode>
+	</champion>
+	<champion key="JarvanIV">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3035" />
+			<item id="3143" />
+			<item id="3102" />
+			<item id="3005" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3142" />
+			<item id="3068" />
+			<item id="3143" />
+		</mode>
+	</champion>
+	<champion key="Jax">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3047" />
+			<item id="3124" />
+			<item id="3116" />
+			<item id="3102" />
+			<item id="3005" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3047" />
+			<item id="3044" />
+			<item id="3144" />
+			<item id="3146" />
+			<item id="3124" />
+		</mode>
+	</champion>
+	<champion key="Jayce">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3057" />
+			<item id="3078" />
+			<item id="3091" />
+			<item id="3105" />
+			<item id="3111" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3057" />
+			<item id="3068" />
+			<item id="3078" />
+			<item id="3091" />
+			<item id="3111" />
+		</mode>
+	</champion>
+	<champion key="Karma">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3158" />
+			<item id="3110" />
+			<item id="3105" />
+			<item id="3116" />
+			<item id="3152" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3158" />
+			<item id="3010" />
+			<item id="3027" />
+			<item id="3110" />
+			<item id="3152" />
+		</mode>
+	</champion>
+	<champion key="Karthus">
+		<mode value="classic">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3027" />
+			<item id="3003" />
+			<item id="3135" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3116" />
+			<item id="3089" />
+			<item id="3003" />
+			<item id="3135" />
+		</mode>
+	</champion>
+	<champion key="Kassadin">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3001" />
+			<item id="3100" />
+			<item id="3003" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3135" />
+			<item id="3003" />
+			<item id="3089" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Katarina">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3020" />
+			<item id="3116" />
+			<item id="3146" />
+			<item id="3001" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1053" />
+			<item id="3020" />
+			<item id="3146" />
+			<item id="3116" />
+			<item id="3089" />
+			<item id="3001" />
+		</mode>
+	</champion>
+	<champion key="Kayle">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3158" />
+			<item id="3124" />
+			<item id="3115" />
+			<item id="3146" />
+			<item id="3078" />
+		</mode>
+		<mode value="dominion">
+			<item id="1042" />
+			<item id="3158" />
+			<item id="3114" />
+			<item id="3124" />
+			<item id="3115" />
+			<item id="3146" />
+		</mode>
+	</champion>
+	<champion key="Kennen">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3020" />
+			<item id="3157" />
+			<item id="3116" />
+			<item id="3001" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3136" />
+			<item id="3116" />
+			<item id="3157" />
+			<item id="3089" />
+		</mode>
+	</champion>
+	<champion key="KogMaw">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3006" />
+			<item id="3126" />
+			<item id="3114" />
+			<item id="3102" />
+			<item id="3046" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3114" />
+			<item id="3186" />
+			<item id="3022" />
+		</mode>
+	</champion>
+	<champion key="Leblanc">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3136" />
+			<item id="3089" />
+			<item id="3135" />
+			<item id="3102" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3020" />
+			<item id="3136" />
+			<item id="3089" />
+			<item id="3116" />
+			<item id="3135" />
+		</mode>
+	</champion>
+	<champion key="LeeSin">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3078" />
+			<item id="3102" />
+			<item id="3072" />
+			<item id="3035" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3184" />
+			<item id="3155" />
+			<item id="3078" />
+			<item id="3181" />
+		</mode>
+	</champion>
+	<champion key="Leona">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3158" />
+			<item id="3078" />
+			<item id="3068" />
+			<item id="3110" />
+			<item id="3001" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3111" />
+			<item id="3067" />
+			<item id="3110" />
+			<item id="3143" />
+			<item id="3068" />
+		</mode>
+	</champion>
+	<champion key="Lulu">
+		<mode value="classic">
+			<item id="1007" />
+			<item id="3158" />
+			<item id="3096" />
+			<item id="3069" />
+			<item id="3105" />
+			<item id="3152" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3158" />
+			<item id="3128" />
+			<item id="3069" />
+			<item id="3105" />
+			<item id="3100" />
+		</mode>
+	</champion>
+	<champion key="Lux">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3158" />
+			<item id="3027" />
+			<item id="3100" />
+			<item id="3157" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3158" />
+			<item id="3010" />
+			<item id="3027" />
+			<item id="3116" />
+			<item id="3089" />
+		</mode>
+	</champion>
+	<champion key="Malphite">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3047" />
+			<item id="3068" />
+			<item id="3143" />
+			<item id="3110" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3006" />
+			<item id="3180" />
+			<item id="3143" />
+			<item id="3068" />
+			<item id="3110" />
+		</mode>
+	</champion>
+	<champion key="Malzahar">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3027" />
+			<item id="3116" />
+			<item id="3089" />
+			<item id="3135" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3020" />
+			<item id="3027" />
+			<item id="3116" />
+			<item id="3089" />
+			<item id="3135" />
+		</mode>
+	</champion>
+	<champion key="Maokai">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3027" />
+			<item id="3110" />
+			<item id="3068" />
+			<item id="3102" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3158" />
+			<item id="3010" />
+			<item id="3027" />
+			<item id="3068" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="MasterYi">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3006" />
+			<item id="3142" />
+			<item id="3035" />
+			<item id="3026" />
+			<item id="3050" />
+		</mode>
+		<mode value="dominion">
+			<item id="1053" />
+			<item id="3006" />
+			<item id="3086" />
+			<item id="3181" />
+			<item id="3031" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="MissFortune">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3111" />
+			<item id="3028" />
+			<item id="3035" />
+			<item id="3031" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3009" />
+			<item id="3185" />
+			<item id="3181" />
+			<item id="3031" />
+			<item id="3046" />
+		</mode>
+	</champion>
+	<champion key="Mordekaiser">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3020" />
+			<item id="3116" />
+			<item id="3068" />
+			<item id="3109" />
+			<item id="3001" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3020" />
+			<item id="3116" />
+			<item id="3109" />
+			<item id="3068" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Morgana">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3157" />
+			<item id="3027" />
+			<item id="3089" />
+			<item id="3110" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3010" />
+			<item id="3027" />
+			<item id="3089" />
+			<item id="3157" />
+		</mode>
+	</champion>
+	<champion key="MonkeyKing">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3111" />
+			<item id="3142" />
+			<item id="3044" />
+			<item id="3035" />
+			<item id="3102" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3111" />
+			<item id="3142" />
+			<item id="3184" />
+			<item id="3181" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Nasus">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3047" />
+			<item id="3028" />
+			<item id="3105" />
+			<item id="3078" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3111" />
+			<item id="3068" />
+			<item id="3005" />
+			<item id="3078" />
+			<item id="3026" />
+		</mode>
+	</champion>
+	<champion key="Nautilus">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3111" />
+			<item id="3132" />
+			<item id="3105" />
+			<item id="3024" />
+			<item id="3001" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3158" />
+			<item id="3069" />
+			<item id="3068" />
+			<item id="3116" />
+			<item id="3001" />
+		</mode>
+	</champion>
+	<champion key="Nidalee">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3158" />
+			<item id="3100" />
+			<item id="3124" />
+			<item id="3026" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3117" />
+			<item id="3124" />
+			<item id="3057" />
+			<item id="3100" />
+			<item id="3089" />
+		</mode>
+	</champion>
+	<champion key="Nocturne">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3006" />
+			<item id="3134" />
+			<item id="3102" />
+			<item id="3072" />
+			<item id="3031" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3006" />
+			<item id="3044" />
+			<item id="3142" />
+			<item id="3071" />
+			<item id="3046" />
+		</mode>
+	</champion>
+	<champion key="Nunu">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3111" />
+			<item id="3102" />
+			<item id="3027" />
+			<item id="3068" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3010" />
+			<item id="3027" />
+			<item id="3068" />
+			<item id="3110" />
+		</mode>
+	</champion>
+	<champion key="Olaf">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3006" />
+			<item id="3142" />
+			<item id="3022" />
+			<item id="3005" />
+			<item id="3050" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3006" />
+			<item id="3184" />
+			<item id="3022" />
+			<item id="3142" />
+			<item id="3031" />
+		</mode>
+	</champion>
+	<champion key="Orianna">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3158" />
+			<item id="3027" />
+			<item id="3116" />
+			<item id="3135" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3158" />
+			<item id="3116" />
+			<item id="3135" />
+			<item id="3089" />
+			<item id="3026" />
+		</mode>
+	</champion>
+	<champion key="Pantheon">
+		<mode value="classic">
+			<item id="1005" />
+			<item id="3006" />
+			<item id="3028" />
+			<item id="3142" />
+			<item id="3035" />
+			<item id="3031" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3006" />
+			<item id="3044" />
+			<item id="3142" />
+			<item id="3155" />
+			<item id="3181" />
+		</mode>
+	</champion>
+	<champion key="Poppy">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3057" />
+			<item id="3035" />
+			<item id="3078" />
+			<item id="3031" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3180" />
+			<item id="3089" />
+			<item id="3135" />
+			<item id="3100" />
+		</mode>
+	</champion>
+	<champion key="Rammus">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3009" />
+			<item id="3105" />
+			<item id="3075" />
+			<item id="3068" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3117" />
+			<item id="3082" />
+			<item id="3143" />
+			<item id="3068" />
+			<item id="3110" />
+		</mode>
+	</champion>
+	<champion key="Renekton">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3158" />
+			<item id="3142" />
+			<item id="3044" />
+			<item id="3026" />
+			<item id="3068" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3065" />
+			<item id="3142" />
+			<item id="3068" />
+			<item id="3143" />
+		</mode>
+	</champion>
+	<champion key="Riven">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3111" />
+			<item id="3154" />
+			<item id="3155" />
+			<item id="3044" />
+			<item id="3142" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3111" />
+			<item id="3142" />
+			<item id="3155" />
+			<item id="3184" />
+			<item id="3181" />
+		</mode>
+	</champion>
+	<champion key="Rumble">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3136" />
+			<item id="3116" />
+			<item id="3069" />
+			<item id="3001" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3158" />
+			<item id="3136" />
+			<item id="3145" />
+			<item id="3116" />
+			<item id="3069" />
+		</mode>
+	</champion>
+	<champion key="Ryze">
+		<mode value="classic">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3070" />
+			<item id="3110" />
+			<item id="3003" />
+			<item id="3102" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3070" />
+			<item id="3180" />
+			<item id="3003" />
+			<item id="3110" />
+		</mode>
+	</champion>
+	<champion key="Sejuani">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3067" />
+			<item id="3110" />
+			<item id="3102" />
+			<item id="3068" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3111" />
+			<item id="3110" />
+			<item id="3057" />
+			<item id="3069" />
+			<item id="3109" />
+		</mode>
+	</champion>
+	<champion key="Shaco">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3117" />
+			<item id="3126" />
+			<item id="3102" />
+			<item id="3026" />
+			<item id="3142" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3117" />
+			<item id="3044" />
+			<item id="3142" />
+			<item id="3078" />
+			<item id="3046" />
+		</mode>
+	</champion>
+	<champion key="Shen">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3105" />
+			<item id="3143" />
+			<item id="3068" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3132" />
+			<item id="3143" />
+			<item id="3068" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Shyvana">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3142" />
+			<item id="3022" />
+			<item id="3091" />
+			<item id="3068" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3111" />
+			<item id="3142" />
+			<item id="3022" />
+			<item id="3091" />
+			<item id="3181" />
+		</mode>
+	</champion>
+	<champion key="Singed">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3009" />
+			<item id="3027" />
+			<item id="3109" />
+			<item id="3068" />
+			<item id="3102" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3009" />
+			<item id="3010" />
+			<item id="3027" />
+			<item id="3068" />
+			<item id="3109" />
+		</mode>
+	</champion>
+	<champion key="Sion">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3111" />
+			<item id="3057" />
+			<item id="3089" />
+			<item id="3102" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3111" />
+			<item id="3057" />
+			<item id="3089" />
+			<item id="3180" />
+			<item id="3026" />
+		</mode>
+	</champion>
+	<champion key="Sivir">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3006" />
+			<item id="3004" />
+			<item id="3078" />
+			<item id="3072" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3006" />
+			<item id="3178" />
+			<item id="3078" />
+			<item id="3181" />
+			<item id="3035" />
+		</mode>
+	</champion>
+	<champion key="Skarner">
+		<mode value="classic">
+			<item id="1007" />
+			<item id="3111" />
+			<item id="3057" />
+			<item id="3146" />
+			<item id="3068" />
+			<item id="3102" />
+		</mode>
+		<mode value="dominion">
+			<item id="1057" />
+			<item id="3111" />
+			<item id="3146" />
+			<item id="3078" />
+			<item id="3110" />
+			<item id="3109" />
+		</mode>
+	</champion>
+	<champion key="Sona">
+		<mode value="classic">
+			<item id="1005" />
+			<item id="3111" />
+			<item id="3099" />
+			<item id="3003" />
+			<item id="3116" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3158" />
+			<item id="3003" />
+			<item id="3116" />
+			<item id="3180" />
+			<item id="3089" />
+		</mode>
+	</champion>
+	<champion key="Soraka">
+		<mode value="classic">
+			<item id="1007" />
+			<item id="3158" />
+			<item id="3067" />
+			<item id="3069" />
+			<item id="3105" />
+			<item id="3001" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3158" />
+			<item id="3010" />
+			<item id="3089" />
+			<item id="3110" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Swain">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3010" />
+			<item id="3116" />
+			<item id="3027" />
+			<item id="3128" />
+		</mode>
+		<mode value="dominion">
+			<item id="1027" />
+			<item id="3020" />
+			<item id="3116" />
+			<item id="3003" />
+			<item id="3089" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Talon">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3111" />
+			<item id="3134" />
+			<item id="3072" />
+			<item id="3142" />
+			<item id="3078" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3117" />
+			<item id="3134" />
+			<item id="3181" />
+			<item id="3031" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Taric">
+		<mode value="classic">
+			<item id="1005" />
+			<item id="3111" />
+			<item id="3028" />
+			<item id="3105" />
+			<item id="3099" />
+			<item id="3110" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3105" />
+			<item id="3099" />
+			<item id="3180" />
+			<item id="3110" />
+		</mode>
+	</champion>
+	<champion key="Teemo">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3006" />
+			<item id="3115" />
+			<item id="3114" />
+			<item id="3022" />
+			<item id="3126" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3117" />
+			<item id="3091" />
+			<item id="3178" />
+			<item id="3114" />
+			<item id="3184" />
+		</mode>
+	</champion>
+	<champion key="Tristana">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3006" />
+			<item id="3142" />
+			<item id="3035" />
+			<item id="3031" />
+			<item id="3126" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3009" />
+			<item id="3185" />
+			<item id="3181" />
+			<item id="3031" />
+			<item id="3046" />
+		</mode>
+	</champion>
+	<champion key="Trundle">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3022" />
+			<item id="3035" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3078" />
+			<item id="3068" />
+			<item id="3143" />
+		</mode>
+	</champion>
+	<champion key="Tryndamere">
+		<mode value="classic">
+			<item id="3093" />
+			<item id="3006" />
+			<item id="3050" />
+			<item id="3031" />
+			<item id="3035" />
+			<item id="3142" />
+		</mode>
+		<mode value="dominion">
+			<item id="1051" />
+			<item id="3006" />
+			<item id="3181" />
+			<item id="3143" />
+			<item id="3031" />
+			<item id="3046" />
+		</mode>
+	</champion>
+	<champion key="TwistedFate">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3006" />
+			<item id="3035" />
+			<item id="3031" />
+			<item id="3131" />
+			<item id="3072" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3006" />
+			<item id="3131" />
+			<item id="3178" />
+			<item id="3181" />
+			<item id="3178" />
+		</mode>
+	</champion>
+	<champion key="Twitch">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3117" />
+			<item id="3134" />
+			<item id="3071" />
+			<item id="3102" />
+			<item id="3031" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3117" />
+			<item id="3185" />
+			<item id="3031" />
+			<item id="3181" />
+			<item id="3046" />
+		</mode>
+	</champion>
+	<champion key="Udyr">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3126" />
+			<item id="3065" />
+			<item id="3143" />
+			<item id="3102" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3142" />
+			<item id="3068" />
+			<item id="3143" />
+		</mode>
+	</champion>
+	<champion key="Urgot">
+		<mode value="classic">
+			<item id="1005" />
+			<item id="3111" />
+			<item id="3004" />
+			<item id="3134" />
+			<item id="3072" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3006" />
+			<item id="3031" />
+			<item id="3181" />
+			<item id="3022" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Varus">
+		<mode value="classic">
+			<item id="1055" />
+			<item id="3006" />
+			<item id="3072" />
+			<item id="3046" />
+			<item id="3035" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3006" />
+			<item id="3181" />
+			<item id="3046" />
+			<item id="3035" />
+			<item id="3026" />
+		</mode>
+	</champion>
+	<champion key="Vayne">
+		<mode value="classic">
+			<item id="1007" />
+			<item id="3009" />
+			<item id="3072" />
+			<item id="3071" />
+			<item id="3031" />
+			<item id="3102" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3158" />
+			<item id="3181" />
+			<item id="3184" />
+			<item id="3031" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Veigar">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3128" />
+			<item id="3089" />
+			<item id="3116" />
+			<item id="3157" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3020" />
+			<item id="3116" />
+			<item id="3180" />
+			<item id="3089" />
+			<item id="3135" />
+		</mode>
+	</champion>
+	<champion key="Vladimir">
+		<mode value="classic">
+			<item id="1007" />
+			<item id="3020" />
+			<item id="3136" />
+			<item id="3116" />
+			<item id="3157" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3020" />
+			<item id="3136" />
+			<item id="3116" />
+			<item id="3157" />
+			<item id="3089" />
+		</mode>
+	</champion>
+	<champion key="Volibear">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3067" />
+			<item id="3110" />
+			<item id="3116" />
+			<item id="3083" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3158" />
+			<item id="3186" />
+			<item id="3110" />
+			<item id="3184" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Viktor">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3027" />
+			<item id="3198" />
+			<item id="3116" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3020" />
+			<item id="3116" />
+			<item id="3187" />
+			<item id="3089" />
+			<item id="3157" />
+		</mode>
+	</champion>
+	<champion key="Warwick">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3006" />
+			<item id="3126" />
+			<item id="3065" />
+			<item id="3068" />
+			<item id="3026" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3065" />
+			<item id="3142" />
+			<item id="3068" />
+			<item id="3143" />
+		</mode>
+	</champion>
+	<champion key="Xerath">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3158" />
+			<item id="3027" />
+			<item id="3116" />
+			<item id="3089" />
+			<item id="3135" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3158" />
+			<item id="3116" />
+			<item id="3165" />
+			<item id="3089" />
+			<item id="3135" />
+		</mode>
+	</champion>
+	<champion key="XinZhao">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3006" />
+			<item id="3035" />
+			<item id="3071" />
+			<item id="3102" />
+			<item id="3143" />
+		</mode>
+		<mode value="dominion">
+			<item id="1028" />
+			<item id="3111" />
+			<item id="3044" />
+			<item id="3142" />
+			<item id="3068" />
+			<item id="3143" />
+		</mode>
+	</champion>
+	<champion key="Yorick">
+		<mode value="classic">
+			<item id="1054" />
+			<item id="3111" />
+			<item id="3065" />
+			<item id="3078" />
+			<item id="3005" />
+			<item id="3102" />
+		</mode>
+		<mode value="dominion">
+			<item id="1062" />
+			<item id="3158" />
+			<item id="3065" />
+			<item id="3078" />
+			<item id="3181" />
+			<item id="3180" />
+		</mode>
+	</champion>
+	<champion key="Ziggs">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3020" />
+			<item id="3027" />
+			<item id="3089" />
+			<item id="3135" />
+			<item id="3152" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3020" />
+			<item id="3116" />
+			<item id="3089" />
+			<item id="3135" />
+			<item id="3100" />
+		</mode>
+	</champion>
+	<champion key="Zilean">
+		<mode value="classic">
+			<item id="1056" />
+			<item id="3111" />
+			<item id="3027" />
+			<item id="3099" />
+			<item id="3110" />
+			<item id="3089" />
+		</mode>
+		<mode value="dominion">
+			<item id="1063" />
+			<item id="3111" />
+			<item id="3010" />
+			<item id="3180" />
+			<item id="3110" />
+			<item id="3089" />
+		</mode>
+	</champion>
+</recommended_items>
+
+"default_items.xml" wird angezeigt.
