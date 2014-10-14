@@ -1,0 +1,309 @@
+
+champions.xml
+Bob Bilbao (bilbao@gmx.us)
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<champions version="19">
+	<champion key="Ahri" name="Ahri">
+		<sorting value="assassin,mage" />
+	</champion>
+	<champion key="Akali" name="Akali">
+		<sorting value="assassin" />
+	</champion>
+	<champion key="Alistar" name="Alistar">
+		<sorting value="tank" />
+	</champion>
+	<champion key="Amumu" name="Amumu">
+		<sorting value="tank" />
+	</champion>
+	<champion key="Anivia" name="Anivia">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Annie" name="Annie">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Ashe" name="Ashe">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Blitzcrank" name="Blitzcrank">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Brand" name="Brand">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Caitlyn" name="Caitlyn">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Cassiopeia" name="Cassiopeia">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Chogath" name="Cho'Gath">
+		<sorting value="fighter,mage" />
+	</champion>
+	<champion key="Corki" name="Corki">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Darius" name="Darius">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Draven" name="Draven">
+		<sorting value="carry" />
+	</champion>
+	<champion key="DrMundo" name="Dr. Mundo">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Evelynn" name="Evelynn">
+		<sorting value="assassin" />
+	</champion>
+	<champion key="Ezreal" name="Ezreal">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Fiddlesticks" name="Fiddlesticks">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Fiora" name="Fiora">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Fizz" name="Fizz">
+		<sorting value="assassin,fighter" />
+	</champion>
+	<champion key="Galio" name="Galio">
+		<sorting value="tank,support" />
+	</champion>
+	<champion key="Gangplank" name="Gangplank">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Garen" name="Garen">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Gragas" name="Gragas">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Graves" name="Graves">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Hecarim" name="Hecarim">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Heimerdinger" name="Heimerdinger">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Irelia" name="Irelia">
+		<sorting value="assassin" />
+	</champion>
+	<champion key="Janna" name="Janna">
+		<sorting value="support" />
+	</champion>
+	<champion key="JarvanIV" name="Jarvan IV">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Jax" name="Jax">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Jayce" name="Jayce">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Karma" name="Karma">
+		<sorting value="support" />
+	</champion>
+	<champion key="Karthus" name="Karthus">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Kassadin" name="Kassadin">
+		<sorting value="mage,assassin" />
+	</champion>
+	<champion key="Katarina" name="Katarina">
+		<sorting value="assassin" />
+	</champion>
+	<champion key="Kayle" name="Kayle">
+		<sorting value="fighter,support" />
+	</champion>
+	<champion key="Kennen" name="Kennen">
+		<sorting value="mage" />
+	</champion>
+	<champion key="KogMaw" name="Kog'Maw">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Leblanc" name="LeBlanc">
+		<sorting value="assassin,mage" />
+	</champion>
+	<champion key="LeeSin" name="Lee Sin">
+		<sorting value="assassin" />
+	</champion>
+	<champion key="Leona" name="Leona">
+		<sorting value="tank" />
+	</champion>
+	<champion key="Lulu" name="Lulu">
+		<sorting value="support" />
+	</champion>
+	<champion key="Lux" name="Lux">
+		<sorting value="mage,support" />
+	</champion>
+	<champion key="Malphite" name="Malphite">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Malzahar" name="Malzahar">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Maokai" name="Maokai">
+		<sorting value="tank" />
+	</champion>
+	<champion key="MasterYi" name="Master Yi">
+		<sorting value="carry" />
+	</champion>
+	<champion key="MissFortune" name="Miss Fortune">
+		<sorting value="carry" />
+	</champion>
+	<champion key="MonkeyKing" name="Wukong">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Mordekaiser" name="Mordekaiser">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Morgana" name="Morgana">
+		<sorting value="mage,support" />
+	</champion>
+	<champion key="Nasus" name="Nasus">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Nautilus" name="Nautilus">
+		<sorting value="tank" />
+	</champion>
+	<champion key="Nidalee" name="Nidalee">
+		<sorting value="support" />
+	</champion>
+	<champion key="Nocturne" name="Nocturne">
+		<sorting value="assassin" />
+	</champion>
+	<champion key="Nunu" name="Nunu">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Olaf" name="Olaf">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Orianna" name="Orianna">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Pantheon" name="Pantheon">
+		<sorting value="assassin" />
+	</champion>
+	<champion key="Poppy" name="Poppy">
+		<sorting value="assassin,fighter" />
+	</champion>
+	<champion key="Rammus" name="Rammus">
+		<sorting value="tank" />
+	</champion>
+	<champion key="Renekton" name="Renekton">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Riven" name="Riven">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Rumble" name="Rumble">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Ryze" name="Ryze">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Sejuani" name="Sejuani">
+		<sorting value="tank" />
+	</champion>
+	<champion key="Shaco" name="Shaco">
+		<sorting value="assassin" />
+	</champion>
+	<champion key="Shen" name="Shen">
+		<sorting value="tank,support" />
+	</champion>
+	<champion key="Shyvana" name="Shyvana">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Singed" name="Singed">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Sion" name="Sion">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Sivir" name="Sivir">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Skarner" name="Skarner">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Sona" name="Sona">
+		<sorting value="support" />
+	</champion>
+	<champion key="Soraka" name="Soraka">
+		<sorting value="support" />
+	</champion>
+	<champion key="Swain" name="Swain">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Talon" name="Talon">
+		<sorting value="assassin" />
+	</champion>
+	<champion key="Taric" name="Taric">
+		<sorting value="tank,support" />
+	</champion>
+	<champion key="Teemo" name="Teemo">
+		<sorting value="support" />
+	</champion>
+	<champion key="Tristana" name="Tristana">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Trundle" name="Trundle">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Tryndamere" name="Tryndamere">
+		<sorting value="carry" />
+	</champion>
+	<champion key="TwistedFate" name="Twisted Fate">
+		<sorting value="assassin" />
+	</champion>
+	<champion key="Twitch" name="Twitch">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Udyr" name="Udyr">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Urgot" name="Urgot">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Varus" name="Varus">
+		<sorting value="carry" />
+	</champion>
+	<champion key="Vayne" name="Vayne">
+		<sorting value="assassin,carry" />
+	</champion>
+	<champion key="Veigar" name="Veigar">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Viktor" name="Viktor">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Vladimir" name="Vladimir">
+		<sorting value="fighter,mage" />
+	</champion>
+	<champion key="Volibear" name="Volibear">
+		<sorting value="fighter,tank" />
+	</champion>
+	<champion key="Warwick" name="Warwick">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Xerath" name="Xerath">
+		<sorting value="mage" />
+	</champion>
+	<champion key="XinZhao" name="Xin Zhao">
+		<sorting value="assassin,fighter" />
+	</champion>
+	<champion key="Yorick" name="Yorick">
+		<sorting value="fighter" />
+	</champion>
+	<champion key="Ziggs" name="Ziggs">
+		<sorting value="mage" />
+	</champion>
+	<champion key="Zilean" name="Zilean">
+		<sorting value="mage,support" />
+	</champion>
+</champions>
+
+"champions.xml" wird angezeigt.
