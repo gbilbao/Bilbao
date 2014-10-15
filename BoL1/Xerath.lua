@@ -3,7 +3,7 @@
 ]]
 if myHero.charName ~= "Xerath" then return end
 
-local version = 4.18.1
+local version = 4.181
 local AUTOUPDATE = true
 local SCRIPT_NAME = "Xerath"
 
