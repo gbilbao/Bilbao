@@ -4,7 +4,7 @@ if myHero.charName ~= "Ezreal" then return end
 --[[       ------------------------------------------       ]]--
 
 --[[The only think where you are allowed to change smth]]--
-local AllowAutoUpdate = true
+local AllowAutoUpdate = false
 --[[ends here!]]--
 
 -------Auto update-------
