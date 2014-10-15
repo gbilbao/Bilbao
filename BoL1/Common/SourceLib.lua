@@ -3,7 +3,7 @@
 local autoUpdate   = true
 local silentUpdate = false
 
-local version = 4.181 -- 1.2 by dienofail to fix bilbao's fix of other people's fix of honda's stuff
+local version = 4.182 -- 1.2 by dienofail to fix bilbao's fix of other people's fix of honda's stuff
 
 --[[
     Introduction:
@@ -822,7 +822,7 @@ function Spell:Cast(param1, param2)
         --print("Sending xerath Q")
         local p = CLoLPacket(0xE6) 
         p:EncodeF(player.networkID)
-        p:Encode1(0xE8)--0xE2
+        p:Encode1(0xE2)
         p:Encode1(0)
         p:EncodeF(param1)
         p:EncodeF(0)
