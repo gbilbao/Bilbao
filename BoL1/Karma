@@ -245,7 +245,7 @@ function _smartcore()
 					CastSpell(_R)
 				end
 				if (Menu.extra.ex.packetcast == 1 or Menu.extra.ex.packetcast == 3) and cancastCOMBO then
-					Packet('S_CAST', { spellId = _R, fromX = myHero.x, fromY = myHero.z}):send()					
+					if VIP_USER then Packet('S_CAST', { spellId = _R, fromX = myHero.x, fromY = myHero.z}):send() else CastSpell(_R) end				
 				end				
 			end
 			if (Menu.rota.userq == 2 or Menu.rota.userq == 3) and cancastCOMBO then
@@ -288,7 +288,7 @@ function _smartcore()
 					CastSpell(_R)
 				end
 				if (Menu.extra.ex.packetcast == 1 or Menu.extra.ex.packetcast == 3) then
-					Packet('S_CAST', { spellId = _R, fromX = myHero.x, fromY = myHero.z}):send()
+					if VIP_USER then Packet('S_CAST', { spellId = _R, fromX = myHero.x, fromY = myHero.z}):send() else CastSpell(_R) end
 				end	
 				end
 				if (Menu.rota.userw == 2 or Menu.rota.userw == 3) then _castSpell(_W, nil, nil, Target) end	
@@ -328,10 +328,10 @@ function _smartcore()
 					CastSpell(_R)
 				end
 				if (Menu.extra.ex.packetcast == 1 or Menu.extra.ex.packetcast == 3) then
-					Packet('S_CAST', { spellId = _R, fromX = myHero.x, fromY = myHero.z}):send()
+					if VIP_USER then Packet('S_CAST', { spellId = _R, fromX = myHero.x, fromY = myHero.z}):send() else CastSpell(_R) end
 				end	
 			end
-			if (Menu.rota.usere == 2 or Menu.rota.usere == 3) then Packet('S_CAST', { spellId = _E, fromX = myHero.x, fromY = myHero.z, targetNetworkId = myHero.networkID}):send() end	
+			if (Menu.rota.usere == 2 or Menu.rota.usere == 3) then if VIP_USER then Packet('S_CAST', { spellId = _E, fromX = myHero.x, fromY = myHero.z, targetNetworkId = myHero.networkID}):send() else CastSpell(_R) end  end	
 		end
 	end 
 end
@@ -478,7 +478,7 @@ end
 function moveToCursor()
 	if GetDistance(mousePos) > 1 or lastAnimation == "Idle1" then
 		local moveToPos = myHero + (Vector(mousePos) - myHero):normalized() * 500
-		if Menu.extra.packetmove then
+		if VIP_USER and Menu.extra.packetmove then
 			Packet('S_MOVE', { type = 2, x = moveToPos.x, y = moveToPos.z }):send()
 		else			
 			myHero:MoveTo(moveToPos.x, moveToPos.z)
