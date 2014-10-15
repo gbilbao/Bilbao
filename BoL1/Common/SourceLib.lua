@@ -3,7 +3,7 @@
 local autoUpdate   = true
 local silentUpdate = false
 
-local version = 4.18.1 -- 1.2 by dienofail to fix bilbao's fix of other people's fix of honda's stuff
+local version = 4.181 -- 1.2 by dienofail to fix bilbao's fix of other people's fix of honda's stuff
 
 --[[
     Introduction:
