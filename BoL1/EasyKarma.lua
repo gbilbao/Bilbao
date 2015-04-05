@@ -1,7 +1,7 @@
 if myHero.charName ~= "Karma" then return end
 if FileExist(LIB_PATH .. "SxOrbWalk.lua") then require("SxOrbWalk") end
 VP = nil
-if FileExist(LIB_PATH .. "SxOrbWalk.lua") then require("VPrediction") VP = VPrediction() end
+if FileExist(LIB_PATH .. "VPrediction.lua") then require("VPrediction") VP = VPrediction() end
 local Spell = {	Q = {Range = 990, Width = 70, Speed = 1800, Delay = 0.25},	W = {Range = 670},	E = {Range = 795, Width = 395},}
 local ts = {	Q = TargetSelector(TARGET_LESS_CAST_PRIORITY, Spell.Q.Range, DAMAGE_MAGIC),	W =  TargetSelector(TARGET_LESS_CAST_PRIORITY, Spell.W.Range, DAMAGE_MAGIC),}
 ts.Q:SetConditional(function(Unit) if VP then local CastPosition,  HitChance,  Position = VP:GetLineCastPosition(Unit, Spell.Q.Delay, Spell.Q.Width, Spell.Q.Range * 4, Spell.Q.Speed, myHero, true) if HitChance >= 1 then return true else return false end end return true end)
