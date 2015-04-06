@@ -49,7 +49,7 @@ function OnTick()
 end
 
 function OnProcessSpell(unit, spell)
-	if myHero:CanUseSpell(_E) == READY and unit.team ~= myHero.tea and (unit.type == myHero.type or myHero.health/myHero.maxHealth < 0.75) and (spell.target == myHero or (spell.endPos ~= nil and spell.endPos.x and spell.endPos.y and spell.endPos.z and GetDistance(spell.endPos) < 50)) then CastSpell(_E, myHero) end
+	if myHero:CanUseSpell(_E) == READY and unit.team ~= myHero.team and (unit.type == myHero.type or myHero.health/myHero.maxHealth < 0.75) and (spell.target == myHero or (spell.endPos ~= nil and spell.endPos.x and spell.endPos.y and spell.endPos.z and GetDistance(spell.endPos) < 50)) then CastSpell(_E, myHero) end
 end
 
 function OnDraw()
