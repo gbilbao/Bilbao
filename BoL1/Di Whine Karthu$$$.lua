@@ -14,23 +14,23 @@ function OnLoad()
 end
 function OnTick() myTs:update() myMinionHandle:update()
 	if myHero:CanUseSpell(_Q) == READY then
-		if ((SxOrb.IsFight and Menu.q.IsFight) or (SxOrb.IsHarass and Menu.q.IsHarass)) and ValidTarget(myTs.target, 875) then
+		if ((SxOrb.isFight and Menu.q.IsFight) or (SxOrb.isHarass and Menu.q.IsHarass)) and ValidTarget(myTs.target, 875) then
 			local predPos, hc = VP:GetCircularCastPosition(myTs.target, 0.75, 200, 875, 1700, myHero)
 			if hc >= 1 and GetDistance(predPos) < 875 then CastSpell(_Q, predPos.x, predPos.z) end
-		elseif ((SxOrb.IsLaneClear and Menu.q.IsLaneClear) or (SxOrb.IsLastHit and Menu.q.IsLastHit)) and ValidTarget(myMinionHandle.objects[1], 875) and ((SxOrb.IsLastHit and myMinionHandle.objects[1].health <  myHero:CalcMagicDamage(myMinionHandle.objects[1], (20 + (myHero:GetSpellData(SPELL_1).level * 20) + (myHero.ap * 0.3)))) or SxOrb.IsLaneClear) then
+		elseif ((SxOrb.isLaneClear and Menu.q.IsLaneClear) or (SxOrb.isLastHit and Menu.q.IsLastHit)) and ValidTarget(myMinionHandle.objects[1], 875) and ((SxOrb.isLastHit and myMinionHandle.objects[1].health <  myHero:CalcMagicDamage(myMinionHandle.objects[1], (20 + (myHero:GetSpellData(SPELL_1).level * 20) + (myHero.ap * 0.3)))) or SxOrb.isLaneClear) then
 			local predPos, hc = VP:GetCircularCastPosition(myMinionHandle.objects[1], 0.75, 200, 875, 1700, myHero)
 			if hc >= 1 and GetDistance(predPos) < 875 then CastSpell(_Q, predPos.x, predPos.z) end
 		end
 	end
 	if myHero:CanUseSpell(_W) == READY then
-		if ((SxOrb.IsFight and Menu.w.IsFight) or (SxOrb.IsHarass and Menu.w.IsHarass)) and ValidTarget(myTs.target, 925) then
+		if ((SxOrb.isFight and Menu.w.IsFight) or (SxOrb.isHarass and Menu.w.IsHarass)) and ValidTarget(myTs.target, 925) then
 			local predPos, hc = VP:GetBestCastPosition(myTs.target, 0.5, myTs.target.boundingRadius, 925, 1600)
 			if hc >= 1 then CastSpell(_W, predPos.x, predPos.z) end		
 		end	
 	end
 	if myHero:CanUseSpell(_E) == READY then
-		if ((SxOrb.IsFight and Menu.e.IsFight) or (SxOrb.IsHarass and Menu.e.IsHarass)) and not EACtive and ValidTarget(myTs.target, 500) then CastSpell(_E)
-		elseif ((SxOrb.IsLaneClear and Menu.e.IsLaneClear) or (SxOrb.IsLastHit and Menu.e.IsLastHit)) and not EACtive and ValidTarget(myMinionHandle.objects[1], 525) and ((SxOrb.IsLastHit and myMinionHandle.objects[1].health <  myHero:CalcMagicDamage(myMinionHandle.objects[1], (20 + (myHero:GetSpellData(SPELL_3).level * 20) + (myHero.ap * 0.2)))) or SxOrb.IsLaneClear) then CastSpell(_E)
+		if ((SxOrb.isFight and Menu.e.IsFight) or (SxOrb.isHarass and Menu.e.IsHarass)) and not EACtive and ValidTarget(myTs.target, 500) then CastSpell(_E)
+		elseif ((SxOrb.isLaneClear and Menu.e.IsLaneClear) or (SxOrb.isLastHit and Menu.e.IsLastHit)) and not EACtive and ValidTarget(myMinionHandle.objects[1], 525) and ((SxOrb.isLastHit and myMinionHandle.objects[1].health <  myHero:CalcMagicDamage(myMinionHandle.objects[1], (20 + (myHero:GetSpellData(SPELL_3).level * 20) + (myHero.ap * 0.2)))) or SxOrb.isLaneClear) then CastSpell(_E)
 		elseif EACtive then	CastSpell(_E)
 		end
 	end
