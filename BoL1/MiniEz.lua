@@ -1,8 +1,8 @@
 if myHero.charName ~= "Ezreal" then return end
-require("VPrediction") require("SxOrbWalk")
+if FileExist(LIB_PATH .. "VPrediction.lua") and FileExist(LIB_PATH .. "SxOrbWalk.lua") then require("SxOrbWalk") require("VPrediction") end
 local myTs, myMinionHandle, VP = TargetSelector(TARGET_LESS_CAST_PRIORITY, 1200, DAMAGE_PHYSICAL), minionManager(MINION_ENEMY, 1200, myHero, MINION_SORT_HEALTH_ASC), VPrediction()
 function OnLoad()
-	Menu = scriptConfig("Easy Ez", "bilbao")--dem fake update xD
+	Menu = scriptConfig("Easy Ez", "bilbao")
 		Menu:addParam("fightmode", "Fight Mode", SCRIPT_PARAM_ONKEYTOGGLE, false, string.byte("P"))
 		Menu:addParam("farmmode", "Farm Mode", SCRIPT_PARAM_ONKEYTOGGLE, false, string.byte("T"))
 		Menu:addParam("pushmode", "Push Mode", SCRIPT_PARAM_ONKEYTOGGLE, false, string.byte("C"))	
