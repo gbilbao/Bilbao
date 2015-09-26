@@ -26,33 +26,31 @@ function OnTick()
 end
 
 function heroCanMove()
-	return (GetTickCount() + GetLatency()/2 > lastAttack + lastWindUpTime + 20)
+	return (GetTickCount() + GetLatency() * 0.5 > lastAttack + lastWindUpTime + 20)
 end 
  
 function timeToShoot()
-	return (GetTickCount() + GetLatency()/2 > lastAttack + lastAttackCD)
+	return (GetTickCount() + GetLatency() * 0.5 > lastAttack + lastAttackCD)
 end 
  
 function moveToCursor()
 	if GetDistance(mousePos) > 1 then
-		local moveToPos = myHero + (Vector(mousePos) - myHero):normalized()* (300 + GetLatency())
+		local moveToPos = myHero + (Vector(mousePos) - myHero):normalized() * (312 + GetLatency())
 		myHero:MoveTo(moveToPos.x, moveToPos.z)
 	end 
 end
 
 function OnDraw()
     if not myHero.dead then
-		if Menu.draw then DrawCircle(myHero.x, myHero.y, myHero.z, range, 0x19A712) end
-        if ts.target ~= nil and Menu.target then DrawCircle(ts.target.x, ts.target.y, ts.target.z, ts.target.boundingRadius + 50, 0x19A712) end
+		if Menu.draw then DrawCircle3D(myHero.x, myHero.y, myHero.z, range, 1, ARGB(0xff, 0xff, 0xff, 0xff), nil) end
+        if ts.target ~= nil and Menu.target then DrawCircle3D(ts.target.x, ts.target.y, ts.target.z, ts.target.boundingRadius + 50, 1, ARGB(0xff, 0xff, 0xff, 0xff), nil) end
     end
 end
 
-function OnProcessSpell(object, spell)
-	if object == myHero then
-		if spell.name:lower():find("attack") then
-			lastAttack = GetTickCount() - GetLatency()/2
-			lastWindUpTime = spell.windUpTime*1000
-			lastAttackCD = spell.animationTime*1000
-		end 
+function OnProcessAttack(object, spell)
+	if object.isMe and spell.name:lower():find("attack") then
+		lastAttack = GetTickCount() - GetLatency() * 0.5
+		lastWindUpTime = spell.windUpTime * 1000
+		lastAttackCD = spell.animationTime * 1000		 
 	end
 end
